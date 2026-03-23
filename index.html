@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+<meta name="description" content="NihongoTamil — தமிழ் வழியில் ஜப்பானியம். Learn Japanese through Tamil with 500+ vocabulary, 284 kanji, grammar, kana and more."/>
+<title>NihongoTamil — 日本語 × தமிழ்</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="style_enhancements.css"/>
+</head>
+<body>
+
+<!-- ══ LOADING SCREEN ══ -->
+<div id="loader">
+  <div class="ld-rain" id="kanjiRain"></div>
+  <div class="ld-logo">語</div>
+  <div class="ld-title">NihongoTamil</div>
+  <div class="ld-sub">日本語 × தமிழ்</div>
+  <div class="ld-bar-wrap"><div class="ld-bar"></div></div>
+  <div class="ld-status" id="ldStatus">ஏற்றுகிறோம்...</div>
+  <div class="ld-dev">Developed by <b>NANTHAN 🇮🇳</b></div>
+</div>
+
+<!-- ══ TOASTS & POPUPS ══ -->
+<div class="toasts" id="toastCont"></div>
+
+<!-- Word Popup -->
+<div class="wpop" id="wpop">
+  <span class="wp-x" onclick="closeWpop()">✕</span>
+  <div class="wp-jp" id="wpJp" onclick="speakWpop()" title="🔊"></div>
+  <div class="wp-rom" id="wpRom"></div>
+  <div class="wp-ta" id="wpTa"></div>
+  <div class="wp-acts">
+    <button class="btn btn-g" style="font-size:10px;padding:5px 10px;" onclick="speakWpop()">🔊 ஒலி</button>
+    <button class="btn btn-t" style="font-size:10px;padding:5px 10px;" onclick="markLearned(document.getElementById('wpJp').textContent)">+ கற்றேன்</button>
+  </div>
+</div>
+
+<!-- Kanji Modal -->
+<div class="kj-ov" id="kjOv" onclick="if(event.target===this)this.classList.remove('on')">
+  <div class="kj-modal" id="kjModal"></div>
+</div>
+
+<!-- Context Popup (long-press) -->
+<div id="ctxPop">
+  <div class="ctx-hdr">
+    <div class="ctx-hdr-jp" id="ctxJp">食</div>
+    <div class="ctx-hdr-info">
+      <div class="ctx-hdr-rom" id="ctxRom"></div>
+      <div class="ctx-hdr-ta" id="ctxTa"></div>
+    </div>
+    <button class="ctx-close" onclick="closeCtxPop()">✕</button>
+  </div>
+  <div class="ctx-body" id="ctxBody"></div>
+  <div class="ctx-acts">
+    <button class="btn btn-r" style="font-size:11px;padding:7px 12px;" onclick="speakCtx()">🔊 ஒலி</button>
+    <button class="btn btn-t" style="font-size:11px;padding:7px 12px;" onclick="learnCtxWord()">+ கற்றேன்</button>
+    <button class="btn btn-g" style="font-size:11px;padding:7px 12px;" onclick="closeCtxPop()">மூடு</button>
+  </div>
+</div>
+<div id="ctxBg" onclick="closeCtxPop()"></div>
+
+<!-- ══ HEADER ══ -->
+<header class="hdr">
+  <div class="hdr-logo">語</div>
+  <div class="hdr-info">
+    <div class="hdr-name">NihongoTamil</div>
+    <span class="hdr-sub" id="hdr-sub">தமிழ் வழியில் ஜப்பானியம்</span>
+  </div>
+  <div class="hdr-r">
+    <div class="xpb">🪙<span id="xpDisp">0</span></div>
+    <div class="ib ib-dict" id="dictBtn" onclick="openDict()" title="📖 அகராதி">📖</div>
+    <div class="ib" id="profBtn" onclick="openProfOverlay()" title="சுயவிவரம்">👤</div>
+    <div class="ib" id="settingsBtn">⚙️</div>
+  </div>
+</header>
+
+<!-- JLPT Bar -->
+<div class="jbar" id="jbar">
+  <div class="jp-pill on" data-l="N5">N5</div>
+  <div class="jp-pill" data-l="N4">N4</div>
+  <div class="jp-pill" data-l="N3">N3</div>
+  <div class="jp-pill" data-l="N2">N2</div>
+  <div class="jp-pill" data-l="N1">N1</div>
+</div>
+
+<!-- ══ HOME PAGE ══ -->
+<div class="pg on" id="pg-home"><div class="pc">
+  <!-- Focus Hero -->
+  <div class="focus-hero">
+    <div class="focus-fl"><span class="focus-dot"></span><span>இன்றைய கவனம்</span></div>
+    <div class="focus-jp" id="fh-jp">さあ、始めよう！</div>
+    <div class="focus-ta" id="fh-ta">N5 வார்த்தைகள் வலுப்படுத்துவோம்</div>
+    <div style="display:flex;gap:8px;margin-top:12px;">
+      <button class="btn btn-r" style="flex:1;" onclick="switchPage('quiz')" id="btn-start">▶ கற்கத் தொடங்கு</button>
+      <button class="btn btn-g" style="padding:10px 13px;" onclick="openDict()" title="அகராதி">📖</button>
+    </div>
+  </div>
+  <!-- Stats -->
+  <div class="sc-row">
+    <div class="sc"><div class="sc-i">🔥</div><div class="sc-v r" id="sv-str">0</div><div class="sc-l">நாள் தொடர்</div></div>
+    <div class="sc"><div class="sc-i">🪙</div><div class="sc-v g" id="sv-xp">0</div><div class="sc-l">மொத்த XP</div></div>
+    <div class="sc"><div class="sc-i">📚</div><div class="sc-v t" id="sv-w">0</div><div class="sc-l">வார்த்தைகள்</div></div>
+  </div>
+  <!-- Progress -->
+  <div class="prog-card">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <span style="font-weight:700;font-size:13px;font-family:var(--FT);color:var(--tx);" id="prog-lvl">N5 முன்னேற்றம்</span>
+      <span style="font-family:var(--FM);font-size:10px;color:var(--tx3);" id="prog-cnt">0/0</span>
+    </div>
+    <div class="prog-bar"><div id="prog-fill" class="prog-fill" style="width:0%;"></div></div>
+  </div>
+  <!-- WOTD -->
+  <div class="wotd" style="position:relative;">
+    <button class="wotd-audio" onclick="speakWotd()">🔊 ஒலி</button>
+    <div class="wotd-l">இன்றைய வார்த்தை</div>
+    <div class="wotd-jp" id="wotd-jp" onclick="speakWotd()" style="cursor:pointer;">桜</div>
+    <div class="wotd-rom" id="wotd-rom">sakura</div>
+    <div class="wotd-ta" id="wotd-ta">செர்ரி பூ</div>
+    <div class="wotd-ex" id="wotd-ex">桜が咲いています。</div>
+    <div class="wotd-ext" id="wotd-ext">செர்ரி பூக்கள் மலர்ந்துள்ளன.</div>
+    <button onclick="openWotdDetail()" style="margin-top:10px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:9px;padding:6px 14px;font-size:11px;cursor:pointer;font-family:var(--FT);">📖 விரிவாக பார்</button>
+  </div>
+  <!-- Quick Actions -->
+  <div class="qa-grid">
+    <div class="qa-card" style="background:linear-gradient(135deg,rgba(55,48,163,.12),rgba(55,48,163,.06));border-color:rgba(55,48,163,.25);" onclick="switchPage('kana')">
+      <span class="qa-icon" style="font-family:var(--FJ);">あア</span>
+      <div class="qa-name">கனா கற்றல்</div>
+      <div class="qa-sub">ஹிராகனா + கட்டகனா</div>
+    </div>
+    <div class="qa-card" style="background:linear-gradient(135deg,rgba(146,96,10,.12),rgba(146,96,10,.06));border-color:rgba(146,96,10,.25);" onclick="switchPage('learn');setTimeout(()=>document.querySelector('.stab[data-s=kanji]')?.click(),200)">
+      <span class="qa-icon" style="font-family:var(--FJ);">漢字</span>
+      <div class="qa-name">கன்ஜி</div>
+      <div class="qa-sub">284 கன்ஜிகள்</div>
+    </div>
+    <div class="qa-card" style="background:linear-gradient(135deg,rgba(185,28,28,.10),rgba(185,28,28,.05));border-color:rgba(185,28,28,.22);" onclick="switchPage('read')">
+      <span class="qa-icon">📖</span>
+      <div class="qa-name">கட்டுரைகள்</div>
+      <div class="qa-sub">12 articles N5→N2</div>
+    </div>
+    <div class="qa-card" style="background:linear-gradient(135deg,rgba(74,124,89,.12),rgba(74,124,89,.06));border-color:rgba(74,124,89,.25);" onclick="switchPage('quiz')">
+      <span class="qa-icon">🎯</span>
+      <div class="qa-name">தேர்வு எழுது</div>
+      <div class="qa-sub">5 வகை தேர்வுகள்</div>
+    </div>
+  </div>
+  <!-- JLPT Overview -->
+  <div class="prog-card">
+    <div style="font-size:12px;font-weight:700;font-family:var(--FT);margin-bottom:9px;color:var(--tx);">📊 JLPT நிலை அவலோகனம்</div>
+    <div id="jlpt-overview"></div>
+  </div>
+  <!-- Topic Grid -->
+  <div class="sh"><span class="st" id="lbl-topics">தலைப்பு அகராதி 📚</span><span class="sa" id="topic-count">18 தலைப்புகள்</span></div>
+  <div class="topic-grid" id="topicGrid"></div>
+  <div id="topicView" style="display:none;"></div>
+  <!-- Daily Phrase -->
+  <div style="margin-top:14px;">
+    <div class="sh"><span class="st">📅 அன்றாட வழக்கு சொற்கள்</span><span class="sa" onclick="nextPhrase()">→ அடுத்தது</span></div>
+    <div class="phrase-card" id="daily-phrase" onclick="speakPhrase()"></div>
+  </div>
+  <!-- Quick Vocab -->
+  <div style="margin-top:14px;">
+    <div class="sh"><span class="st">⚡ விரைவு வார்த்தைகள் (<span id="qv-level">N5</span>)</span><span class="sa" onclick="refreshQuickVocab()">🔀 மாற்று</span></div>
+    <div class="word-grid" id="quick-vocab-grid"></div>
+  </div>
+  <!-- Grammar Preview -->
+  <div style="margin-top:14px;">
+    <div class="sh"><span class="st">📖 இலக்கண குறிப்பு</span><span class="sa" onclick="switchPage('learn');setTimeout(()=>document.querySelector('.stab[data-s=grammar]')?.click(),200)">→ அனைத்தும்</span></div>
+    <div id="gram-preview"></div>
+  </div>
+  <!-- Home Kana Quiz -->
+  <div style="margin-top:14px;margin-bottom:6px;">
+    <div class="sh"><span class="st">あ கனா வினா</span><span class="sa" onclick="switchPage('kana')">→ கனா பக்கம்</span></div>
+    <div class="hkq-card" id="home-kana-quiz">
+      <div class="hkq-char" id="hkq-char">あ</div>
+      <div style="font-size:11px;color:var(--tx3);font-family:var(--FT);margin-bottom:4px;" id="hkq-hint">இந்த ஹிராகனா-க்கு ஒலி என்ன?</div>
+      <div class="hkq-opts" id="hkq-opts"></div>
+      <div style="margin-top:8px;font-size:10px;color:var(--tx3);font-family:var(--FM);" id="hkq-score"></div>
+    </div>
+  </div>
+</div></div>
+
+<!-- ══ KANA PAGE ══ -->
+<div class="pg" id="pg-kana"><div class="pc">
+  <div class="ktabs" id="ktabs">
+    <button class="ktab on" data-k="hira">あ ஹிராகனா</button>
+    <button class="ktab" data-k="kata">ア கட்டகனா</button>
+    <button class="ktab" data-k="combo">Combo</button>
+    <button class="ktab" data-k="kquiz">📝 தேர்வு</button>
+  </div>
+  <div id="kana-hira"></div>
+  <div id="kana-kata" style="display:none;"></div>
+  <div id="kana-combo" style="display:none;"></div>
+  <div id="kana-kquiz" style="display:none;">
+    <div class="kq-card">
+      <div class="kq-big" id="kq-big">あ</div>
+      <div class="kq-hint" id="kq-hint">இந்த எழுத்துக்கான ஒலி என்ன?</div>
+      <div class="kq-opts" id="kq-opts"></div>
+    </div>
+    <div class="kq-score" id="kq-score">மதிப்பெண்: 0 / 0</div>
+    <div style="text-align:center;margin-top:9px;">
+      <button class="btn btn-g" onclick="startKanaQuiz()">🔄 புதிய கேள்வி</button>
+    </div>
+  </div>
+</div></div>
+
+<!-- ══ QUIZ PAGE ══ -->
+<div class="pg" id="pg-quiz"><div class="pc">
+  <div id="quiz-menu">
+    <div style="margin-bottom:13px;font-size:13px;font-weight:700;font-family:var(--FT);color:var(--tx);">தேர்வு வகை தேர்வு செய்யவும்</div>
+    <div class="qt-grid" id="qt-grid"></div>
+    <div style="margin-bottom:10px;font-size:12px;font-weight:700;font-family:var(--FT);color:var(--tx);">தொகுதி தேர்வு</div>
+    <div id="set-list"></div>
+    <button class="btn btn-i btn-w" style="margin-top:11px;" onclick="startQuiz()">▶ தேர்வு தொடங்கு</button>
+  </div>
+  <div id="quiz-active" style="display:none;">
+    <div class="qpbar"><div class="qpfill" id="qpfill"></div></div>
+    <div class="q-num" id="q-num"></div>
+    <div class="q-card"><div class="q-big" id="q-big"></div><div class="q-hint" id="q-hint"></div></div>
+    <div class="q-opts" id="q-opts"></div>
+  </div>
+  <div class="qres" id="quiz-res" style="display:none;">
+    <div class="qr-em" id="qr-em">🎉</div>
+    <div class="qr-sc" id="qr-sc"></div>
+    <div class="qr-msg" id="qr-msg"></div>
+    <div class="qr-xp" id="qr-xp"></div>
+    <button class="btn btn-g btn-w" onclick="endQuiz()">← திரும்பு</button>
+  </div>
+</div></div>
+
+<!-- ══ READ PAGE ══ -->
+<div class="pg" id="pg-read"><div class="pc">
+  <div id="art-list"></div>
+  <div id="art-view" style="display:none;">
+    <div class="av-back" onclick="closeArt()">← கட்டுரைகள்</div>
+    <div class="av-content">
+      <div class="av-ttl" id="av-ttl"></div>
+      <div class="av-txt" id="av-txt"></div>
+    </div>
+    <div style="display:flex;gap:7px;margin:9px 0;">
+      <button class="btn btn-t" style="flex:1;font-size:11px;" id="av-trans-btn" onclick="translateArt()">🌐 தமிழில் மொழிபெயர்</button>
+      <button class="btn btn-r" style="padding:10px 13px;font-size:11px;" onclick="speakFull()">🔊 முழு கட்டுரை</button>
+      <button class="btn btn-g" style="padding:10px 12px;" onclick="stopSpeak()">⏹</button>
+    </div>
+    <div class="ta-block" id="av-ta-block">
+      <div class="ta-lbl">தமிழ் மொழிபெயர்ப்பு</div>
+      <div class="ta-txt" id="av-ta-txt"></div>
+    </div>
+    <div class="voc-box" id="av-voc"></div>
+  </div>
+</div></div>
+
+<!-- ══ LEARN PAGE ══ -->
+<div class="pg" id="pg-learn"><div class="pc">
+  <div class="stabs" id="learn-tabs">
+    <button class="stab on" data-s="vocab">📚 சொல்வளம்</button>
+    <button class="stab" data-s="verbs">⛩ வினைகள்</button>
+    <button class="stab" data-s="grammar">📖 இலக்கணம்</button>
+    <button class="stab" data-s="kanji">漢 கன்ஜி</button>
+    <button class="stab" data-s="anime">🎌 அனிமே</button>
+  </div>
+  <div id="sub-vocab">
+    <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:11px;" id="type-filters"></div>
+    <div class="vg" id="vocab-grid"></div>
+  </div>
+  <div id="sub-verbs" style="display:none;">
+    <div class="vpills" id="verb-pills"></div>
+    <div class="vtw"><table class="vt"><thead><tr>
+      <th>வினைச்சொல்</th><th>அடிப்படை</th><th>மரியாதை</th>
+      <th>て-form</th><th>எதிர்மறை</th><th>கடந்த காலம்</th><th>திறன்</th>
+    </tr></thead><tbody id="vtb"></tbody></table></div>
+  </div>
+  <div id="sub-grammar" style="display:none;">
+    <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:11px;" id="gram-filters"></div>
+    <div id="gram-cards"></div>
+  </div>
+  <div id="sub-kanji" style="display:none;">
+    <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:11px;" id="kanji-filters"></div>
+    <div class="kg" id="kanji-grid"></div>
+  </div>
+  <div id="sub-anime" style="display:none;">
+    <div style="background:var(--ibg);border:1px solid var(--ibd);border-radius:var(--r2);padding:11px;margin-bottom:11px;font-family:var(--FT);font-size:12px;color:var(--tx2);line-height:1.8;">ஜப்பானிய அனிமே பார்ப்பது மொழி கற்க சிறந்த வழி! Jikan API மூலம் டாப் அனிமே.</div>
+    <button class="btn btn-r btn-w" onclick="fetchAnime()" id="anime-fetch-btn">🎌 டாப் அனிமே ஏற்று (Jikan)</button>
+    <div id="anime-list" style="margin-top:11px;"></div>
+  </div>
+</div></div>
+
+<!-- ══ DICTIONARY PAGE ══ -->
+<div id="pg-dict">
+  <div class="dict-header">
+    <div class="dict-header-row">
+      <button class="dict-back" onclick="closeDict()">← திரும்பு</button>
+      <div class="dict-title">📖 அகராதி</div>
+      <div class="dict-count" id="dict-count"></div>
+    </div>
+    <div style="display:flex;gap:8px;">
+      <input id="dict-search" class="inp" placeholder="தேடு: 食べる, taberu, சாப்பிடு, eat..." autocomplete="off" style="flex:1;font-size:14px;" oninput="doSearch(this.value)"/>
+      <button onclick="doSearch(document.getElementById('dict-search').value)" class="btn btn-r" style="padding:10px 14px;font-size:15px;">🔍</button>
+    </div>
+    <div class="dict-filters" id="dict-filters">
+      <div class="dp on" onclick="setDictFilter('all',this)">அனைத்தும்</div>
+      <div class="dp" onclick="setDictFilter('word',this)">📝 வார்த்தை</div>
+      <div class="dp" onclick="setDictFilter('kanji',this)">漢 கன்ஜி</div>
+      <div class="dp" onclick="setDictFilter('kana',this)">あ கனா</div>
+      <div class="dp" onclick="setDictFilter('grammar',this)">📖 இலக்கணம்</div>
+      <div class="dp" onclick="setDictFilter('N5',this)">N5</div>
+      <div class="dp" onclick="setDictFilter('N4',this)">N4</div>
+      <div class="dp" onclick="setDictFilter('N3',this)">N3</div>
+      <div class="dp" onclick="setDictFilter('N2',this)">N2</div>
+      <div class="dp" onclick="setDictFilter('N1',this)">N1</div>
+    </div>
+  </div>
+  <div id="dict-results" class="dict-results"></div>
+</div>
+
+<!-- ══ WORD DETAIL PAGE ══ -->
+<div id="pg-worddetail">
+  <div class="wd-header">
+    <button id="wd-back" onclick="closeWordDetail()" class="dict-back">←</button>
+    <div id="wd-header-jp" style="font-family:var(--FJ);font-size:21px;font-weight:900;flex:1;color:var(--tx);"></div>
+    <button onclick="speakDetailWord()" style="background:var(--tbg);border:1px solid var(--tbd);border-radius:9px;padding:7px 13px;font-size:15px;cursor:pointer;color:var(--teal);">🔊</button>
+  </div>
+  <div id="wd-body" class="wd-body"></div>
+</div>
+
+<!-- ══ PROFILE OVERLAY ══ -->
+<div id="profOv">
+  <div class="prof-box">
+    <div id="prof-login-view">
+      <div style="text-align:center;margin-bottom:17px;">
+        <div style="font-family:var(--FJ);font-size:38px;font-weight:900;color:var(--red);">語</div>
+        <div style="font-family:var(--FD);font-size:21px;font-weight:700;color:var(--tx);">NihongoTamil</div>
+        <div style="font-family:var(--FT);font-size:12px;color:var(--tx3);margin-top:3px;">உங்கள் கற்றல் பயணத்தை தொடங்குங்கள்</div>
+      </div>
+      <div style="font-size:11px;font-weight:700;color:var(--tx3);margin-bottom:9px;font-family:var(--FT);">உங்கள் பெயர்</div>
+      <input id="profNameInp" class="inp" placeholder="உங்கள் பெயர்..." maxlength="24" style="margin-bottom:11px;"/>
+      <div style="font-size:11px;font-weight:700;color:var(--tx3);margin-bottom:9px;font-family:var(--FT);">Avatar தேர்வு</div>
+      <div class="prof-av-row" id="avatarRow"></div>
+      <button class="btn btn-r btn-w" onclick="createProfile()" style="margin-top:13px;">✨ தொடங்கு!</button>
+      <div style="font-family:var(--FT);font-size:9px;color:var(--tx3);text-align:center;margin-top:9px;">உங்கள் தகவல் இந்த சாதனத்திலேயே பாதுகாப்பாக சேமிக்கப்படும் 🔒</div>
+    </div>
+    <div id="prof-main-view" style="display:none;">
+      <div class="prof-card" onclick="closeProfOverlay()">
+        <div class="prof-av" id="profAv">🐼</div>
+        <div><div class="prof-name" id="profName">User</div><div class="prof-lvl" id="profLvl"></div></div>
+        <div style="margin-left:auto;font-size:22px;opacity:.6;">›</div>
+      </div>
+      <div class="prof-stats">
+        <div class="pstat"><div class="pstat-n" id="ps-xp">0</div><div class="pstat-l">XP</div></div>
+        <div class="pstat"><div class="pstat-n" id="ps-w">0</div><div class="pstat-l">வார்த்தைகள்</div></div>
+        <div class="pstat"><div class="pstat-n" id="ps-str"><span class="fire">🔥</span>0</div><div class="pstat-l">தொடர்</div></div>
+      </div>
+      <div style="font-size:10px;font-weight:700;color:var(--tx3);margin-bottom:7px;font-family:var(--FM);">ACTIVITY LOG</div>
+      <div class="act-log" id="actLog"></div>
+      <div style="font-size:10px;font-weight:700;color:var(--tx3);margin:11px 0 7px;font-family:var(--FM);">28-DAY HEATMAP</div>
+      <div class="heatmap" id="heatmap"></div>
+      <div style="display:flex;gap:8px;margin-top:15px;">
+        <button class="btn btn-g" style="flex:1;font-size:11px;" onclick="closeProfOverlay()">← திரும்பு</button>
+        <button class="btn btn-g" style="font-size:11px;color:var(--red);border-color:var(--rbd);" onclick="deleteProfile()">🗑 Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ SETTINGS PANEL ══ -->
+<div id="sov">
+  <div class="spanel">
+    <div class="s-back" onclick="closeSett()">
+      <div class="s-bk">←</div><div class="s-ttl">அமைப்புகள்</div>
+    </div>
+    <div class="s-sec">மொழி</div>
+    <div class="s-card">
+      <div class="s-row">
+        <div class="s-ic">🌐</div><div class="s-lb">மொழி</div>
+        <div class="lang-sel">
+          <div class="lopt on" data-lang="ta" onclick="setLang('ta')">த</div>
+          <div class="lopt" data-lang="en" onclick="setLang('en')">EN</div>
+          <div class="lopt" data-lang="ja" onclick="setLang('ja')">日</div>
+        </div>
+      </div>
+    </div>
+    <div class="s-sec">APIS</div>
+    <div class="s-card">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <div style="display:flex;align-items:center;gap:4px;font-size:11px;color:var(--tx2);"><div style="width:7px;height:7px;border-radius:50%;background:var(--teal);"></div>Jikan API ✓ இலவசம்</div>
+        <div style="display:flex;align-items:center;gap:4px;font-size:11px;color:var(--tx2);"><div style="width:7px;height:7px;border-radius:50%;background:var(--teal);"></div>Web Speech API ✓</div>
+        <div style="display:flex;align-items:center;gap:4px;font-size:11px;color:var(--tx2);"><div style="width:7px;height:7px;border-radius:50%;background:var(--teal);"></div>Local Dictionary ✓</div>
+      </div>
+    </div>
+    <div class="s-sec">முன்னேற்றம்</div>
+    <div class="s-stat-g">
+      <div class="ss"><div class="ss-n" id="ss-w">0</div><div class="ss-l">வார்த்தைகள்</div></div>
+      <div class="ss"><div class="ss-n" id="ss-q">0</div><div class="ss-l">தேர்வுகள்</div></div>
+      <div class="ss"><div class="ss-n" id="ss-x">0</div><div class="ss-l">XP</div></div>
+    </div>
+    <button class="btn btn-g btn-w" style="margin-top:9px;border-color:var(--rbd);color:var(--red);" onclick="resetProg()">🗑️ முன்னேற்றம் மீட்டமை</button>
+    <!-- About -->
+    <div class="s-sec">FEATURES & APIS</div>
+    <div class="about-feat">
+      <div class="af-top"><div class="af-ic">📖</div><div class="af-name">உள்ளூர் அகராதி</div><span class="af-badge">OFFLINE</span></div>
+      <div class="af-desc">506 N5 வார்த்தைகள் · 284 கன்ஜிகள் · 42 Grammar points · 46+33 Kana · Header 📖 button → தேடு</div>
+    </div>
+    <div class="about-feat">
+      <div class="af-top"><div class="af-ic">🎌</div><div class="af-name">Jikan API</div><span class="af-badge">FREE</span></div>
+      <div class="af-desc">Topic cards, Article cards, Grammar cards-ல் anime images · Learn → Anime தேர்ந்த anime list</div>
+    </div>
+    <div class="about-feat">
+      <div class="af-top"><div class="af-ic">🔊</div><div class="af-name">Web Speech API</div><span class="af-badge">BUILT-IN</span></div>
+      <div class="af-desc">எல்லா JP text-லும் 🔊 · Long-press → word lookup · முழு கட்டுரை read aloud</div>
+    </div>
+    <div class="about-feat">
+      <div class="af-top"><div class="af-ic">👆</div><div class="af-name">Long-press Word Lookup</div><span class="af-badge">LOCAL</span></div>
+      <div class="af-desc">எந்த JP text-லும் 700ms hold → word/kanji விளக்கம் popup</div>
+    </div>
+    <div class="s-about">
+      <div class="s-about-logo">語</div>
+      <div style="font-family:var(--FT);font-size:11px;color:var(--tx3);line-height:1.9;">
+        NihongoTamil v5 · 日本語 × தமிழ்<br>
+        506 Words · 284 Kanji · 42 Grammar<br>
+        12 Topics · 15 Phrases · 5 Quiz Types<br><br>
+        Developed by <b style="color:var(--red);font-weight:700;">NANTHAN 🇮🇳</b><br>
+        <span style="font-size:9px;opacity:.5;">தமிழ் மக்களுக்காக முழு அன்புடன் ❤️</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ BOTTOM NAV ══ -->
+<nav class="bnav">
+  <button class="nb on" data-p="home" onclick="switchPage('home')"><span class="ni">🏠</span><span class="nl">வீடு</span></button>
+  <button class="nb" data-p="kana" onclick="switchPage('kana')"><span class="ni" style="font-family:var(--FJ);">あ</span><span class="nl">கனா</span></button>
+  <button class="nb" data-p="quiz" onclick="switchPage('quiz')"><span class="ni">📝</span><span class="nl">தேர்வு</span></button>
+  <button class="nb" data-p="read" onclick="switchPage('read')"><span class="ni">📖</span><span class="nl">படி</span></button>
+  <button class="nb" data-p="learn" onclick="switchPage('learn')"><span class="ni" style="font-family:var(--FJ);">学</span><span class="nl">கற்று</span></button>
+</nav>
+
+<!-- ══ SCRIPTS ══ -->
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="enhancements.js"></script>
+</body>
+</html>
