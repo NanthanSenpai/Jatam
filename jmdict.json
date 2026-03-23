@@ -1,0 +1,3831 @@
+{
+  "meta": {
+    "version": "1.0",
+    "name": "NihongoTamil JMdict Local",
+    "author": "NANTHAN",
+    "description": "JMdict-inspired local dictionary for Tamil speakers learning Japanese",
+    "total": 129
+  },
+  "entries": [
+    {
+      "word": "食べる",
+      "kana": "たべる",
+      "romaji": "taberu",
+      "jlpt": "N5",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "சாப்பிடு",
+          "english": "to eat",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "食べる",
+        "masu": "食べます",
+        "te": "食べて",
+        "nai": "食べない",
+        "ta": "食べた",
+        "potential": "食べられる",
+        "passive": "食べられる",
+        "causative": "食べさせる"
+      },
+      "examples": [
+        {
+          "jp": "毎日ご飯を食べます。",
+          "ta": "தினமும் சோறு சாப்பிடுகிறேன்."
+        },
+        {
+          "jp": "何を食べたいですか？",
+          "ta": "என்ன சாப்பிட வேண்டும்?"
+        }
+      ]
+    },
+    {
+      "word": "飲む",
+      "kana": "のむ",
+      "romaji": "nomu",
+      "jlpt": "N5",
+      "group": "Godan-mu",
+      "meanings": [
+        {
+          "tamil": "குடி",
+          "english": "to drink",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "飲む",
+        "masu": "飲みます",
+        "te": "飲んで",
+        "nai": "飲まない",
+        "ta": "飲んだ",
+        "potential": "飲める",
+        "passive": "飲まれる",
+        "causative": "飲ませる"
+      },
+      "examples": [
+        {
+          "jp": "水を飲む。",
+          "ta": "தண்ணீர் குடிக்கிறேன்."
+        },
+        {
+          "jp": "お茶を飲みますか？",
+          "ta": "தேநீர் குடிப்பீர்களா?"
+        }
+      ]
+    },
+    {
+      "word": "行く",
+      "kana": "いく",
+      "romaji": "iku",
+      "jlpt": "N5",
+      "group": "Godan-ku",
+      "meanings": [
+        {
+          "tamil": "போ",
+          "english": "to go",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "行く",
+        "masu": "行きます",
+        "te": "行って",
+        "nai": "行かない",
+        "ta": "行った",
+        "potential": "行ける",
+        "passive": "行かれる",
+        "causative": "行かせる"
+      },
+      "examples": [
+        {
+          "jp": "学校に行く。",
+          "ta": "பள்ளிக்கு போகிறேன்."
+        },
+        {
+          "jp": "日本に行きたい。",
+          "ta": "ஜப்பானுக்கு போக விரும்புகிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "来る",
+      "kana": "くる",
+      "romaji": "kuru",
+      "jlpt": "N5",
+      "group": "Irregular",
+      "meanings": [
+        {
+          "tamil": "வா",
+          "english": "to come",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "来る",
+        "masu": "来ます",
+        "te": "来て",
+        "nai": "来ない",
+        "ta": "来た",
+        "potential": "来られる",
+        "passive": "来られる",
+        "causative": "来させる"
+      },
+      "examples": [
+        {
+          "jp": "友達が来る。",
+          "ta": "நண்பன் வருகிறான்."
+        },
+        {
+          "jp": "いつ来ますか？",
+          "ta": "எப்போது வருவீர்கள்?"
+        }
+      ]
+    },
+    {
+      "word": "する",
+      "kana": "する",
+      "romaji": "suru",
+      "jlpt": "N5",
+      "group": "Irregular",
+      "meanings": [
+        {
+          "tamil": "செய்",
+          "english": "to do",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "する",
+        "masu": "します",
+        "te": "して",
+        "nai": "しない",
+        "ta": "した",
+        "potential": "できる",
+        "passive": "される",
+        "causative": "させる"
+      },
+      "examples": [
+        {
+          "jp": "勉強をする。",
+          "ta": "படிக்கிறேன்."
+        },
+        {
+          "jp": "何をしましたか？",
+          "ta": "என்ன செய்தீர்கள்?"
+        }
+      ]
+    },
+    {
+      "word": "見る",
+      "kana": "みる",
+      "romaji": "miru",
+      "jlpt": "N5",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "பார்",
+          "english": "to see, to look",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "見る",
+        "masu": "見ます",
+        "te": "見て",
+        "nai": "見ない",
+        "ta": "見た",
+        "potential": "見られる",
+        "passive": "見られる",
+        "causative": "見させる"
+      },
+      "examples": [
+        {
+          "jp": "映画を見る。",
+          "ta": "திரைப்படம் பார்க்கிறேன்."
+        },
+        {
+          "jp": "テレビを見ましたか？",
+          "ta": "தொலைக்காட்சி பார்த்தீர்களா?"
+        }
+      ]
+    },
+    {
+      "word": "話す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "jlpt": "N5",
+      "group": "Godan-su",
+      "meanings": [
+        {
+          "tamil": "பேசு",
+          "english": "to speak, to talk",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "話す",
+        "masu": "話します",
+        "te": "話して",
+        "nai": "話さない",
+        "ta": "話した",
+        "potential": "話せる",
+        "passive": "話される",
+        "causative": "話させる"
+      },
+      "examples": [
+        {
+          "jp": "日本語を話す。",
+          "ta": "ஜப்பானியம் பேசுகிறேன்."
+        },
+        {
+          "jp": "ゆっくり話してください。",
+          "ta": "மெதுவாக பேசுங்கள்."
+        }
+      ]
+    },
+    {
+      "word": "書く",
+      "kana": "かく",
+      "romaji": "kaku",
+      "jlpt": "N5",
+      "group": "Godan-ku",
+      "meanings": [
+        {
+          "tamil": "எழுது",
+          "english": "to write",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "書く",
+        "masu": "書きます",
+        "te": "書いて",
+        "nai": "書かない",
+        "ta": "書いた",
+        "potential": "書ける",
+        "passive": "書かれる",
+        "causative": "書かせる"
+      },
+      "examples": [
+        {
+          "jp": "手紙を書く。",
+          "ta": "கடிதம் எழுதுகிறேன்."
+        },
+        {
+          "jp": "漢字を書きます。",
+          "ta": "கன்ஜி எழுதுகிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "読む",
+      "kana": "よむ",
+      "romaji": "yomu",
+      "jlpt": "N5",
+      "group": "Godan-mu",
+      "meanings": [
+        {
+          "tamil": "படி",
+          "english": "to read",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "読む",
+        "masu": "読みます",
+        "te": "読んで",
+        "nai": "読まない",
+        "ta": "読んだ",
+        "potential": "読める",
+        "passive": "読まれる",
+        "causative": "読ませる"
+      },
+      "examples": [
+        {
+          "jp": "本を読む。",
+          "ta": "புத்தகம் படிக்கிறேன்."
+        },
+        {
+          "jp": "新聞を読みましたか？",
+          "ta": "செய்தித்தாள் படித்தீர்களா?"
+        }
+      ]
+    },
+    {
+      "word": "聞く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "jlpt": "N5",
+      "group": "Godan-ku",
+      "meanings": [
+        {
+          "tamil": "கேள் / கேட்",
+          "english": "to listen, to hear, to ask",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "聞く",
+        "masu": "聞きます",
+        "te": "聞いて",
+        "nai": "聞かない",
+        "ta": "聞いた",
+        "potential": "聞ける",
+        "passive": "聞かれる",
+        "causative": "聞かせる"
+      },
+      "examples": [
+        {
+          "jp": "音楽を聞く。",
+          "ta": "இசை கேட்கிறேன்."
+        },
+        {
+          "jp": "先生に聞いてください。",
+          "ta": "ஆசிரியரிடம் கேளுங்கள்."
+        }
+      ]
+    },
+    {
+      "word": "待つ",
+      "kana": "まつ",
+      "romaji": "matsu",
+      "jlpt": "N5",
+      "group": "Godan-tsu",
+      "meanings": [
+        {
+          "tamil": "காத்திரு",
+          "english": "to wait",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "待つ",
+        "masu": "待ちます",
+        "te": "待って",
+        "nai": "待たない",
+        "ta": "待った",
+        "potential": "待てる",
+        "passive": "待たれる",
+        "causative": "待たせる"
+      },
+      "examples": [
+        {
+          "jp": "ここで待ってください。",
+          "ta": "இங்கே காத்திருங்கள்."
+        },
+        {
+          "jp": "長い間待った。",
+          "ta": "நீண்ட நேரம் காத்திருந்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "起きる",
+      "kana": "おきる",
+      "romaji": "okiru",
+      "jlpt": "N5",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "எழு",
+          "english": "to wake up, to get up",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "起きる",
+        "masu": "起きます",
+        "te": "起きて",
+        "nai": "起きない",
+        "ta": "起きた",
+        "potential": "起きられる",
+        "passive": "起こされる",
+        "causative": "起こさせる"
+      },
+      "examples": [
+        {
+          "jp": "七時に起きる。",
+          "ta": "ஏழு மணிக்கு எழுகிறேன்."
+        },
+        {
+          "jp": "早く起きてください。",
+          "ta": "சீக்கிரம் எழுங்கள்."
+        }
+      ]
+    },
+    {
+      "word": "寝る",
+      "kana": "ねる",
+      "romaji": "neru",
+      "jlpt": "N5",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "தூங்கு",
+          "english": "to sleep, to lie down",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "寝る",
+        "masu": "寝ます",
+        "te": "寝て",
+        "nai": "寝ない",
+        "ta": "寝た",
+        "potential": "寝られる",
+        "passive": "寝られる",
+        "causative": "寝させる"
+      },
+      "examples": [
+        {
+          "jp": "十時に寝る。",
+          "ta": "பத்து மணிக்கு தூங்குகிறேன்."
+        },
+        {
+          "jp": "もう寝ましたか？",
+          "ta": "ஏற்கனவே தூங்கி விட்டீர்களா?"
+        }
+      ]
+    },
+    {
+      "word": "買う",
+      "kana": "かう",
+      "romaji": "kau",
+      "jlpt": "N5",
+      "group": "Godan-u",
+      "meanings": [
+        {
+          "tamil": "வாங்கு",
+          "english": "to buy",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "買う",
+        "masu": "買います",
+        "te": "買って",
+        "nai": "買わない",
+        "ta": "買った",
+        "potential": "買える",
+        "passive": "買われる",
+        "causative": "買わせる"
+      },
+      "examples": [
+        {
+          "jp": "服を買う。",
+          "ta": "ஆடை வாங்குகிறேன்."
+        },
+        {
+          "jp": "何を買いましたか？",
+          "ta": "என்ன வாங்கினீர்கள்?"
+        }
+      ]
+    },
+    {
+      "word": "使う",
+      "kana": "つかう",
+      "romaji": "tsukau",
+      "jlpt": "N5",
+      "group": "Godan-u",
+      "meanings": [
+        {
+          "tamil": "பயன்படுத்து",
+          "english": "to use",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "使う",
+        "masu": "使います",
+        "te": "使って",
+        "nai": "使わない",
+        "ta": "使った",
+        "potential": "使える",
+        "passive": "使われる",
+        "causative": "使わせる"
+      },
+      "examples": [
+        {
+          "jp": "スマホを使う。",
+          "ta": "ஸ்மார்ட்போன் பயன்படுத்துகிறேன்."
+        },
+        {
+          "jp": "どうやって使いますか？",
+          "ta": "எப்படி பயன்படுத்துவது?"
+        }
+      ]
+    },
+    {
+      "word": "作る",
+      "kana": "つくる",
+      "romaji": "tsukuru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "செய் / உருவாக்கு",
+          "english": "to make, to create",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "作る",
+        "masu": "作ります",
+        "te": "作って",
+        "nai": "作らない",
+        "ta": "作った",
+        "potential": "作れる",
+        "passive": "作られる",
+        "causative": "作らせる"
+      },
+      "examples": [
+        {
+          "jp": "料理を作る。",
+          "ta": "சமையல் செய்கிறேன்."
+        },
+        {
+          "jp": "プログラムを作りました。",
+          "ta": "நிரல் உருவாக்கினேன்."
+        }
+      ]
+    },
+    {
+      "word": "帰る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "திரும்பு",
+          "english": "to return, to go home",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "帰る",
+        "masu": "帰ります",
+        "te": "帰って",
+        "nai": "帰らない",
+        "ta": "帰った",
+        "potential": "帰れる",
+        "passive": "帰られる",
+        "causative": "帰らせる"
+      },
+      "examples": [
+        {
+          "jp": "家に帰る。",
+          "ta": "வீடு திரும்புகிறேன்."
+        },
+        {
+          "jp": "何時に帰りましたか？",
+          "ta": "என்ன மணிக்கு திரும்பினீர்கள்?"
+        }
+      ]
+    },
+    {
+      "word": "思う",
+      "kana": "おもう",
+      "romaji": "omou",
+      "jlpt": "N5",
+      "group": "Godan-u",
+      "meanings": [
+        {
+          "tamil": "நினைக்கிறேன்",
+          "english": "to think, to feel",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "思う",
+        "masu": "思います",
+        "te": "思って",
+        "nai": "思わない",
+        "ta": "思った",
+        "potential": "思える",
+        "passive": "思われる",
+        "causative": "思わせる"
+      },
+      "examples": [
+        {
+          "jp": "そう思います。",
+          "ta": "அப்படி நினைக்கிறேன்."
+        },
+        {
+          "jp": "何を思っていますか？",
+          "ta": "என்ன நினைக்கிறீர்கள்?"
+        }
+      ]
+    },
+    {
+      "word": "分かる",
+      "kana": "わかる",
+      "romaji": "wakaru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "புரிகிறது",
+          "english": "to understand, to know",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "分かる",
+        "masu": "分かります",
+        "te": "分かって",
+        "nai": "分からない",
+        "ta": "分かった",
+        "potential": "分かれる",
+        "passive": "分かられる",
+        "causative": "分からせる"
+      },
+      "examples": [
+        {
+          "jp": "日本語が分かります。",
+          "ta": "ஜப்பானியம் புரிகிறது."
+        },
+        {
+          "jp": "分かりましたか？",
+          "ta": "புரிந்ததா?"
+        }
+      ]
+    },
+    {
+      "word": "知る",
+      "kana": "しる",
+      "romaji": "shiru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "தெரி / அறி",
+          "english": "to know",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "知る",
+        "masu": "知ります",
+        "te": "知って",
+        "nai": "知らない",
+        "ta": "知った",
+        "potential": "知れる",
+        "passive": "知られる",
+        "causative": "知らせる"
+      },
+      "examples": [
+        {
+          "jp": "あの人を知っていますか？",
+          "ta": "அந்த நபரை தெரியுமா?"
+        },
+        {
+          "jp": "名前を知りたい。",
+          "ta": "பெயர் தெரிய வேண்டும்."
+        }
+      ]
+    },
+    {
+      "word": "教える",
+      "kana": "おしえる",
+      "romaji": "oshieru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "கற்பி",
+          "english": "to teach, to tell",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "教える",
+        "masu": "教えます",
+        "te": "教えて",
+        "nai": "教えない",
+        "ta": "教えた",
+        "potential": "教えられる",
+        "passive": "教えられる",
+        "causative": "教えさせる"
+      },
+      "examples": [
+        {
+          "jp": "英語を教える。",
+          "ta": "ஆங்கிலம் கற்பிக்கிறேன்."
+        },
+        {
+          "jp": "道を教えてください。",
+          "ta": "வழி சொல்லுங்கள்."
+        }
+      ]
+    },
+    {
+      "word": "覚える",
+      "kana": "おぼえる",
+      "romaji": "oboeru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "மனப்பாடம் செய் / நினைவில் வை",
+          "english": "to memorize, to remember",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "覚える",
+        "masu": "覚えます",
+        "te": "覚えて",
+        "nai": "覚えない",
+        "ta": "覚えた",
+        "potential": "覚えられる",
+        "passive": "覚えられる",
+        "causative": "覚えさせる"
+      },
+      "examples": [
+        {
+          "jp": "単語を覚える。",
+          "ta": "சொல்லை மனப்பாடம் செய்கிறேன்."
+        },
+        {
+          "jp": "全部覚えましたか？",
+          "ta": "எல்லாவற்றையும் மனப்பாடம் செய்தீர்களா?"
+        }
+      ]
+    },
+    {
+      "word": "忘れる",
+      "kana": "わすれる",
+      "romaji": "wasureru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "மறந்து போ",
+          "english": "to forget",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "忘れる",
+        "masu": "忘れます",
+        "te": "忘れて",
+        "nai": "忘れない",
+        "ta": "忘れた",
+        "potential": "忘れられる",
+        "passive": "忘れられる",
+        "causative": "忘れさせる"
+      },
+      "examples": [
+        {
+          "jp": "名前を忘れた。",
+          "ta": "பெயர் மறந்தது."
+        },
+        {
+          "jp": "忘れないでください。",
+          "ta": "மறக்காதீர்கள்."
+        }
+      ]
+    },
+    {
+      "word": "始める",
+      "kana": "はじめる",
+      "romaji": "hajimeru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "தொடங்கு",
+          "english": "to start, to begin",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "始める",
+        "masu": "始めます",
+        "te": "始めて",
+        "nai": "始めない",
+        "ta": "始めた",
+        "potential": "始められる",
+        "passive": "始められる",
+        "causative": "始めさせる"
+      },
+      "examples": [
+        {
+          "jp": "勉強を始める。",
+          "ta": "படிக்கத் தொடங்குகிறேன்."
+        },
+        {
+          "jp": "いつ始めますか？",
+          "ta": "எப்போது தொடங்குவீர்கள்?"
+        }
+      ]
+    },
+    {
+      "word": "終わる",
+      "kana": "おわる",
+      "romaji": "owaru",
+      "jlpt": "N4",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "முடி",
+          "english": "to end, to finish",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "終わる",
+        "masu": "終わります",
+        "te": "終わって",
+        "nai": "終わらない",
+        "ta": "終わった",
+        "potential": "終われる",
+        "passive": "終わられる",
+        "causative": "終わらせる"
+      },
+      "examples": [
+        {
+          "jp": "仕事が終わった。",
+          "ta": "வேலை முடிந்தது."
+        },
+        {
+          "jp": "授業は何時に終わりますか？",
+          "ta": "வகுப்பு என்ன மணிக்கு முடியும்?"
+        }
+      ]
+    },
+    {
+      "word": "決める",
+      "kana": "きめる",
+      "romaji": "kimeru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "முடிவெடு",
+          "english": "to decide",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "決める",
+        "masu": "決めます",
+        "te": "決めて",
+        "nai": "決めない",
+        "ta": "決めた",
+        "potential": "決められる",
+        "passive": "決められる",
+        "causative": "決めさせる"
+      },
+      "examples": [
+        {
+          "jp": "日程を決める。",
+          "ta": "தேதி முடிவெடுக்கிறேன்."
+        },
+        {
+          "jp": "もう決めましたか？",
+          "ta": "ஏற்கனவே முடிவெடுத்தீர்களா?"
+        }
+      ]
+    },
+    {
+      "word": "変える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "மாற்று",
+          "english": "to change, to alter",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "変える",
+        "masu": "変えます",
+        "te": "変えて",
+        "nai": "変えない",
+        "ta": "変えた",
+        "potential": "変えられる",
+        "passive": "変えられる",
+        "causative": "変えさせる"
+      },
+      "examples": [
+        {
+          "jp": "計画を変える。",
+          "ta": "திட்டம் மாற்றுகிறேன்."
+        },
+        {
+          "jp": "考えを変えました。",
+          "ta": "கருத்தை மாற்றினேன்."
+        }
+      ]
+    },
+    {
+      "word": "助ける",
+      "kana": "たすける",
+      "romaji": "tasukeru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "உதவு",
+          "english": "to help, to rescue",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "助ける",
+        "masu": "助けます",
+        "te": "助けて",
+        "nai": "助けない",
+        "ta": "助けた",
+        "potential": "助けられる",
+        "passive": "助けられる",
+        "causative": "助けさせる"
+      },
+      "examples": [
+        {
+          "jp": "友達を助ける。",
+          "ta": "நண்பனுக்கு உதவுகிறேன்."
+        },
+        {
+          "jp": "助けてください！",
+          "ta": "உதவுங்கள்!"
+        }
+      ]
+    },
+    {
+      "word": "送る",
+      "kana": "おくる",
+      "romaji": "okuru",
+      "jlpt": "N4",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "அனுப்பு",
+          "english": "to send",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "送る",
+        "masu": "送ります",
+        "te": "送って",
+        "nai": "送らない",
+        "ta": "送った",
+        "potential": "送れる",
+        "passive": "送られる",
+        "causative": "送らせる"
+      },
+      "examples": [
+        {
+          "jp": "メールを送る。",
+          "ta": "மெயில் அனுப்புகிறேன்."
+        },
+        {
+          "jp": "荷物を送りました。",
+          "ta": "பார்சல் அனுப்பினேன்."
+        }
+      ]
+    },
+    {
+      "word": "受ける",
+      "kana": "うける",
+      "romaji": "ukeru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "பெறு / தேர்வு எழுது",
+          "english": "to receive, to take (an exam)",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "受ける",
+        "masu": "受けます",
+        "te": "受けて",
+        "nai": "受けない",
+        "ta": "受けた",
+        "potential": "受けられる",
+        "passive": "受けられる",
+        "causative": "受けさせる"
+      },
+      "examples": [
+        {
+          "jp": "試験を受ける。",
+          "ta": "தேர்வு எழுதுகிறேன்."
+        },
+        {
+          "jp": "注文を受けました。",
+          "ta": "ஆர்டர் பெற்றேன்."
+        }
+      ]
+    },
+    {
+      "word": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "jlpt": "N5",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "நேரம்",
+          "english": "time",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "時間がない。",
+          "ta": "நேரம் இல்லை."
+        },
+        {
+          "jp": "時間がかかります。",
+          "ta": "நேரம் ஆகும்."
+        }
+      ]
+    },
+    {
+      "word": "場所",
+      "kana": "ばしょ",
+      "romaji": "basho",
+      "jlpt": "N5",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "இடம்",
+          "english": "place, location",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "いい場所だ。",
+          "ta": "நல்ல இடம்."
+        },
+        {
+          "jp": "場所を教えてください。",
+          "ta": "இடம் சொல்லுங்கள்."
+        }
+      ]
+    },
+    {
+      "word": "言葉",
+      "kana": "ことば",
+      "romaji": "kotoba",
+      "jlpt": "N5",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "வார்த்தை / மொழி",
+          "english": "word, language",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "難しい言葉だ。",
+          "ta": "கஷ்டமான வார்த்தை."
+        },
+        {
+          "jp": "言葉を覚える。",
+          "ta": "வார்த்தை மனப்பாடம் செய்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "気持ち",
+      "kana": "きもち",
+      "romaji": "kimochi",
+      "jlpt": "N5",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "உணர்வு",
+          "english": "feeling, mood",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "気持ちがいい。",
+          "ta": "உணர்வு நன்றாக இருக்கிறது."
+        },
+        {
+          "jp": "あなたの気持ちが分かる。",
+          "ta": "உங்கள் உணர்வு புரிகிறது."
+        }
+      ]
+    },
+    {
+      "word": "意味",
+      "kana": "いみ",
+      "romaji": "imi",
+      "jlpt": "N5",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "பொருள்",
+          "english": "meaning",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "意味が分からない。",
+          "ta": "பொருள் புரியவில்லை."
+        },
+        {
+          "jp": "この言葉の意味は何ですか？",
+          "ta": "இந்த வார்த்தையின் பொருள் என்ன?"
+        }
+      ]
+    },
+    {
+      "word": "理由",
+      "kana": "りゆう",
+      "romaji": "riyuu",
+      "jlpt": "N5",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "காரணம்",
+          "english": "reason, cause",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "理由を教えてください。",
+          "ta": "காரணம் சொல்லுங்கள்."
+        },
+        {
+          "jp": "どんな理由ですか？",
+          "ta": "என்ன காரணம்?"
+        }
+      ]
+    },
+    {
+      "word": "問題",
+      "kana": "もんだい",
+      "romaji": "mondai",
+      "jlpt": "N5",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "பிரச்சனை / கேள்வி",
+          "english": "problem, question",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "問題がない。",
+          "ta": "பிரச்சனை இல்லை."
+        },
+        {
+          "jp": "難しい問題だ。",
+          "ta": "கஷ்டமான கேள்வி."
+        }
+      ]
+    },
+    {
+      "word": "方法",
+      "kana": "ほうほう",
+      "romaji": "houhou",
+      "jlpt": "N5",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "வழிமுறை",
+          "english": "method, way",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "いい方法がある。",
+          "ta": "நல்ல வழிமுறை இருக்கிறது."
+        },
+        {
+          "jp": "方法を教えてください。",
+          "ta": "வழி சொல்லுங்கள்."
+        }
+      ]
+    },
+    {
+      "word": "生活",
+      "kana": "せいかつ",
+      "romaji": "seikatsu",
+      "jlpt": "N4",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "வாழ்க்கை / அன்றாட வாழ்வு",
+          "english": "life, living",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "日本での生活は楽しい。",
+          "ta": "ஜப்பானில் வாழ்க்கை மகிழ்ச்சியானது."
+        },
+        {
+          "jp": "生活費がかかる。",
+          "ta": "வாழ்க்கை செலவு ஆகும்."
+        }
+      ]
+    },
+    {
+      "word": "社会",
+      "kana": "しゃかい",
+      "romaji": "shakai",
+      "jlpt": "N4",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "சமூகம்",
+          "english": "society",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "社会に貢献する。",
+          "ta": "சமூகத்திற்கு பங்களிக்கிறேன்."
+        },
+        {
+          "jp": "社会問題が多い。",
+          "ta": "சமூக பிரச்சனைகள் அதிகம்."
+        }
+      ]
+    },
+    {
+      "word": "経験",
+      "kana": "けいけん",
+      "romaji": "keiken",
+      "jlpt": "N4",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "அனுபவம்",
+          "english": "experience",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "経験が大切だ。",
+          "ta": "அனுபவம் முக்கியம்."
+        },
+        {
+          "jp": "いい経験になった。",
+          "ta": "நல்ல அனுபவமாக இருந்தது."
+        }
+      ]
+    },
+    {
+      "word": "文化",
+      "kana": "ぶんか",
+      "romaji": "bunka",
+      "jlpt": "N4",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "கலாச்சாரம்",
+          "english": "culture",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "日本の文化が好きだ。",
+          "ta": "ஜப்பானிய கலாச்சாரம் பிடிக்கும்."
+        },
+        {
+          "jp": "文化の違いがある。",
+          "ta": "கலாச்சார வேறுபாடு இருக்கிறது."
+        }
+      ]
+    },
+    {
+      "word": "自然",
+      "kana": "しぜん",
+      "romaji": "shizen",
+      "jlpt": "N4",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "இயற்கை",
+          "english": "nature",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "自然が美しい。",
+          "ta": "இயற்கை அழகானது."
+        },
+        {
+          "jp": "自然を守りましょう。",
+          "ta": "இயற்கையை பாதுகாப்போம்."
+        }
+      ]
+    },
+    {
+      "word": "技術",
+      "kana": "ぎじゅつ",
+      "romaji": "gijutsu",
+      "jlpt": "N4",
+      "group": "Noun",
+      "meanings": [
+        {
+          "tamil": "தொழில்நுட்பம் / திறன்",
+          "english": "technology, skill",
+          "pos": "noun"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "技術が進歩した。",
+          "ta": "தொழில்நுட்பம் முன்னேறியது."
+        },
+        {
+          "jp": "高い技術を持っている。",
+          "ta": "உயர் திறன் வைத்திருக்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "大切",
+      "kana": "たいせつ",
+      "romaji": "taisetsu",
+      "jlpt": "N5",
+      "group": "na-adj",
+      "meanings": [
+        {
+          "tamil": "முக்கியமான",
+          "english": "important, precious",
+          "pos": "adjective-na"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "家族は大切だ。",
+          "ta": "குடும்பம் முக்கியம்."
+        },
+        {
+          "jp": "大切にしてください。",
+          "ta": "முக்கியமாக வையுங்கள்."
+        }
+      ]
+    },
+    {
+      "word": "素晴らしい",
+      "kana": "すばらしい",
+      "romaji": "subarashii",
+      "jlpt": "N4",
+      "group": "i-adj",
+      "meanings": [
+        {
+          "tamil": "அற்புதமான",
+          "english": "wonderful, splendid",
+          "pos": "adjective-i"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "素晴らしい景色だ。",
+          "ta": "அற்புதமான காட்சி."
+        },
+        {
+          "jp": "素晴らしい仕事だ！",
+          "ta": "அற்புதமான வேலை!"
+        }
+      ]
+    },
+    {
+      "word": "複雑",
+      "kana": "ふくざつ",
+      "romaji": "fukuzatsu",
+      "jlpt": "N3",
+      "group": "na-adj",
+      "meanings": [
+        {
+          "tamil": "சிக்கலான",
+          "english": "complicated, complex",
+          "pos": "adjective-na"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "複雑な問題だ。",
+          "ta": "சிக்கலான பிரச்சனை."
+        },
+        {
+          "jp": "日本語の文法は複雑だ。",
+          "ta": "ஜப்பானிய இலக்கணம் சிக்கலானது."
+        }
+      ]
+    },
+    {
+      "word": "丁寧",
+      "kana": "ていねい",
+      "romaji": "teinei",
+      "jlpt": "N4",
+      "group": "na-adj",
+      "meanings": [
+        {
+          "tamil": "மரியாதையான / சீரான",
+          "english": "polite, careful",
+          "pos": "adjective-na"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "丁寧に話す。",
+          "ta": "மரியாதையாக பேசுகிறேன்."
+        },
+        {
+          "jp": "丁寧な人だ。",
+          "ta": "மரியாதையான நபர்."
+        }
+      ]
+    },
+    {
+      "word": "〜ている",
+      "kana": "ている",
+      "romaji": "te iru",
+      "jlpt": "N5",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "நடந்துகொண்டிருக்கிறது / நிலை",
+          "english": "progressive action / resultant state",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "今、食べています。",
+          "ta": "இப்போது சாப்பிட்டுக்கொண்டிருக்கிறேன்."
+        },
+        {
+          "jp": "窓が開いている。",
+          "ta": "ஜன்னல் திறந்திருக்கிறது."
+        }
+      ]
+    },
+    {
+      "word": "〜たい",
+      "kana": "たい",
+      "romaji": "tai",
+      "jlpt": "N5",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்ய விரும்புகிறேன்",
+          "english": "want to do",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "日本に行きたい。",
+          "ta": "ஜப்பானுக்கு போக விரும்புகிறேன்."
+        },
+        {
+          "jp": "寿司を食べたい。",
+          "ta": "சுஷி சாப்பிட விரும்புகிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜てから",
+      "kana": "てから",
+      "romaji": "te kara",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்த பிறகு",
+          "english": "after doing",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "宿題をしてから遊ぶ。",
+          "ta": "வீட்டுப்பாடம் செய்த பிறகு விளையாடுவேன்."
+        },
+        {
+          "jp": "食べてから寝た。",
+          "ta": "சாப்பிட்ட பிறகு தூங்கினேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜ながら",
+      "kana": "ながら",
+      "romaji": "nagara",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்கொண்டே",
+          "english": "while doing simultaneously",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "音楽を聞きながら勉強する。",
+          "ta": "இசை கேட்கொண்டே படிக்கிறேன்."
+        },
+        {
+          "jp": "歩きながら話す。",
+          "ta": "நடக்கொண்டே பேசுகிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜ために",
+      "kana": "ために",
+      "romaji": "tame ni",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "நோக்கத்திற்காக",
+          "english": "for the purpose of, in order to",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "健康のために運動する。",
+          "ta": "ஆரோக்கியத்திற்காக உடற்பயிற்சி செய்கிறேன்."
+        },
+        {
+          "jp": "家族のために働く。",
+          "ta": "குடும்பத்திற்காக உழைக்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "実際",
+      "kana": "じっさい",
+      "romaji": "jissai",
+      "jlpt": "N3",
+      "group": "Noun/Adv",
+      "meanings": [
+        {
+          "tamil": "உண்மையில்",
+          "english": "actually, in reality",
+          "pos": "adverb"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "実際に行ってみた。",
+          "ta": "உண்மையில் போய் பார்த்தேன்."
+        },
+        {
+          "jp": "実際は難しい。",
+          "ta": "உண்மையில் கஷ்டம்."
+        }
+      ]
+    },
+    {
+      "word": "必要",
+      "kana": "ひつよう",
+      "romaji": "hitsuyou",
+      "jlpt": "N3",
+      "group": "na-adj/Noun",
+      "meanings": [
+        {
+          "tamil": "அவசியம்",
+          "english": "necessary, needed",
+          "pos": "adjective-na"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "練習が必要だ。",
+          "ta": "பயிற்சி அவசியம்."
+        },
+        {
+          "jp": "必要なものを買う。",
+          "ta": "அவசியமான பொருள் வாங்குகிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "特に",
+      "kana": "とくに",
+      "romaji": "toku ni",
+      "jlpt": "N3",
+      "group": "Adverb",
+      "meanings": [
+        {
+          "tamil": "குறிப்பாக",
+          "english": "especially, particularly",
+          "pos": "adverb"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "特に好きな食べ物は寿司だ。",
+          "ta": "குறிப்பாக பிடிக்கும் உணவு சுஷி."
+        },
+        {
+          "jp": "特に問題はない。",
+          "ta": "குறிப்பாக பிரச்சனை இல்லை."
+        }
+      ]
+    },
+    {
+      "word": "ほとんど",
+      "kana": "ほとんど",
+      "romaji": "hotondo",
+      "jlpt": "N3",
+      "group": "Adverb",
+      "meanings": [
+        {
+          "tamil": "கிட்டதட்ட / பெரும்பாலும்",
+          "english": "mostly, almost",
+          "pos": "adverb"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "ほとんど終わった。",
+          "ta": "கிட்டதட்ட முடிந்தது."
+        },
+        {
+          "jp": "ほとんどの人が知っている。",
+          "ta": "பெரும்பாலும் எல்லோரும் தெரிந்துள்ளனர்."
+        }
+      ]
+    },
+    {
+      "word": "だいぶ",
+      "kana": "だいぶ",
+      "romaji": "daibu",
+      "jlpt": "N3",
+      "group": "Adverb",
+      "meanings": [
+        {
+          "tamil": "மிகவும் / கணிசமாக",
+          "english": "considerably, quite",
+          "pos": "adverb"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "だいぶ上手になった。",
+          "ta": "மிகவும் திறமையாகி விட்டேன்."
+        },
+        {
+          "jp": "だいぶ遅くなった。",
+          "ta": "கணிசமாக தாமதமாகிவிட்டது."
+        }
+      ]
+    },
+    {
+      "word": "歩く",
+      "kana": "あるく",
+      "romaji": "aruku",
+      "jlpt": "N5",
+      "group": "Godan-ku",
+      "meanings": [
+        {
+          "tamil": "நட",
+          "english": "to walk",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "歩く",
+        "masu": "歩きます",
+        "te": "歩いて",
+        "nai": "歩かない",
+        "ta": "歩いた",
+        "potential": "歩ける",
+        "passive": "歩かれる",
+        "causative": "歩かせる"
+      },
+      "examples": [
+        {
+          "jp": "公園を歩く。",
+          "ta": "பூங்காவில் நடக்கிறேன்."
+        },
+        {
+          "jp": "毎日一時間歩きます。",
+          "ta": "தினமும் ஒரு மணி நேரம் நடக்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "走る",
+      "kana": "はしる",
+      "romaji": "hashiru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "ஓடு",
+          "english": "to run",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "走る",
+        "masu": "走ります",
+        "te": "走って",
+        "nai": "走らない",
+        "ta": "走った",
+        "potential": "走れる",
+        "passive": "走られる",
+        "causative": "走らせる"
+      },
+      "examples": [
+        {
+          "jp": "毎朝公園を走る。",
+          "ta": "தினமும் காலை பூங்காவில் ஓடுகிறேன்."
+        },
+        {
+          "jp": "マラソンを走った。",
+          "ta": "மாரத்தான் ஓடினேன்."
+        }
+      ]
+    },
+    {
+      "word": "泳ぐ",
+      "kana": "およぐ",
+      "romaji": "oyogu",
+      "jlpt": "N5",
+      "group": "Godan-gu",
+      "meanings": [
+        {
+          "tamil": "நீந்து",
+          "english": "to swim",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "泳ぐ",
+        "masu": "泳ぎます",
+        "te": "泳いで",
+        "nai": "泳がない",
+        "ta": "泳いだ",
+        "potential": "泳げる",
+        "passive": "泳がれる",
+        "causative": "泳がせる"
+      },
+      "examples": [
+        {
+          "jp": "海で泳ぐ。",
+          "ta": "கடலில் நீந்துகிறேன்."
+        },
+        {
+          "jp": "プールで泳ぎました。",
+          "ta": "குளத்தில் நீந்தினேன்."
+        }
+      ]
+    },
+    {
+      "word": "乗る",
+      "kana": "のる",
+      "romaji": "noru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "ஏறு / சவாரி செய்",
+          "english": "to ride, to board",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "乗る",
+        "masu": "乗ります",
+        "te": "乗って",
+        "nai": "乗らない",
+        "ta": "乗った",
+        "potential": "乗れる",
+        "passive": "乗られる",
+        "causative": "乗らせる"
+      },
+      "examples": [
+        {
+          "jp": "電車に乗る。",
+          "ta": "ரயிலில் ஏறுகிறேன்."
+        },
+        {
+          "jp": "自転車に乗りました。",
+          "ta": "மிதிவண்டி ஓட்டினேன்."
+        }
+      ]
+    },
+    {
+      "word": "降りる",
+      "kana": "おりる",
+      "romaji": "oriru",
+      "jlpt": "N5",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "இறங்கு",
+          "english": "to get off, to descend",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "降りる",
+        "masu": "降ります",
+        "te": "降りて",
+        "nai": "降りない",
+        "ta": "降りた",
+        "potential": "降りられる",
+        "passive": "降りられる",
+        "causative": "降りさせる"
+      },
+      "examples": [
+        {
+          "jp": "次の駅で降りる。",
+          "ta": "அடுத்த நிலையத்தில் இறங்குகிறேன்."
+        },
+        {
+          "jp": "バスを降りました。",
+          "ta": "பேருந்தில் இருந்து இறங்கினேன்."
+        }
+      ]
+    },
+    {
+      "word": "洗う",
+      "kana": "あらう",
+      "romaji": "arau",
+      "jlpt": "N5",
+      "group": "Godan-u",
+      "meanings": [
+        {
+          "tamil": "கழுவு",
+          "english": "to wash",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "洗う",
+        "masu": "洗います",
+        "te": "洗って",
+        "nai": "洗わない",
+        "ta": "洗った",
+        "potential": "洗える",
+        "passive": "洗われる",
+        "causative": "洗わせる"
+      },
+      "examples": [
+        {
+          "jp": "手を洗う。",
+          "ta": "கை கழுவுகிறேன்."
+        },
+        {
+          "jp": "食器を洗いました。",
+          "ta": "பாத்திரம் கழுவினேன்."
+        }
+      ]
+    },
+    {
+      "word": "切る",
+      "kana": "きる",
+      "romaji": "kiru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "வெட்டு",
+          "english": "to cut",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "切る",
+        "masu": "切ります",
+        "te": "切って",
+        "nai": "切らない",
+        "ta": "切った",
+        "potential": "切れる",
+        "passive": "切られる",
+        "causative": "切らせる"
+      },
+      "examples": [
+        {
+          "jp": "野菜を切る。",
+          "ta": "காய்கறி வெட்டுகிறேன்."
+        },
+        {
+          "jp": "髪を切りました。",
+          "ta": "தலைமுடி வெட்டினேன்."
+        }
+      ]
+    },
+    {
+      "word": "着る",
+      "kana": "きる",
+      "romaji": "kiru",
+      "jlpt": "N5",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "அணி",
+          "english": "to wear (clothes)",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "着る",
+        "masu": "着ます",
+        "te": "着て",
+        "nai": "着ない",
+        "ta": "着た",
+        "potential": "着られる",
+        "passive": "着られる",
+        "causative": "着させる"
+      },
+      "examples": [
+        {
+          "jp": "コートを着る。",
+          "ta": "ஓவர்கோட் அணிகிறேன்."
+        },
+        {
+          "jp": "着物を着ました。",
+          "ta": "கிமோனோ அணிந்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "脱ぐ",
+      "kana": "ぬぐ",
+      "romaji": "nugu",
+      "jlpt": "N5",
+      "group": "Godan-gu",
+      "meanings": [
+        {
+          "tamil": "கழற்று",
+          "english": "to take off (clothes)",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "脱ぐ",
+        "masu": "脱ぎます",
+        "te": "脱いで",
+        "nai": "脱がない",
+        "ta": "脱いだ",
+        "potential": "脱げる",
+        "passive": "脱がれる",
+        "causative": "脱がせる"
+      },
+      "examples": [
+        {
+          "jp": "靴を脱ぐ。",
+          "ta": "காலணி கழற்றுகிறேன்."
+        },
+        {
+          "jp": "コートを脱ぎました。",
+          "ta": "ஓவர்கோட் கழற்றினேன்."
+        }
+      ]
+    },
+    {
+      "word": "持つ",
+      "kana": "もつ",
+      "romaji": "motsu",
+      "jlpt": "N5",
+      "group": "Godan-tsu",
+      "meanings": [
+        {
+          "tamil": "வைத்திரு / கொண்டு போ",
+          "english": "to hold, to carry",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "持つ",
+        "masu": "持ちます",
+        "te": "持って",
+        "nai": "持たない",
+        "ta": "持った",
+        "potential": "持てる",
+        "passive": "持たれる",
+        "causative": "持たせる"
+      },
+      "examples": [
+        {
+          "jp": "かばんを持つ。",
+          "ta": "பை கொண்டு செல்கிறேன்."
+        },
+        {
+          "jp": "傘を持ちました。",
+          "ta": "குடை எடுத்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "置く",
+      "kana": "おく",
+      "romaji": "oku",
+      "jlpt": "N5",
+      "group": "Godan-ku",
+      "meanings": [
+        {
+          "tamil": "வை",
+          "english": "to place, to put",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "置く",
+        "masu": "置きます",
+        "te": "置いて",
+        "nai": "置かない",
+        "ta": "置いた",
+        "potential": "置ける",
+        "passive": "置かれる",
+        "causative": "置かせる"
+      },
+      "examples": [
+        {
+          "jp": "机の上に置く。",
+          "ta": "மேஜையில் வைக்கிறேன்."
+        },
+        {
+          "jp": "荷物を置きました。",
+          "ta": "சாமான் வைத்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "取る",
+      "kana": "とる",
+      "romaji": "toru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "எடு / பிடி",
+          "english": "to take, to get",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "取る",
+        "masu": "取ります",
+        "te": "取って",
+        "nai": "取らない",
+        "ta": "取った",
+        "potential": "取れる",
+        "passive": "取られる",
+        "causative": "取らせる"
+      },
+      "examples": [
+        {
+          "jp": "本を取る。",
+          "ta": "புத்தகம் எடுக்கிறேன்."
+        },
+        {
+          "jp": "写真を取りました。",
+          "ta": "புகைப்படம் எடுத்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "あげる",
+      "kana": "あげる",
+      "romaji": "ageru",
+      "jlpt": "N5",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "கொடு (தாழ்நிலையிலிருந்து உயர்நிலைக்கு)",
+          "english": "to give (to someone equal or higher)",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "あげる",
+        "masu": "あげます",
+        "te": "あげて",
+        "nai": "あげない",
+        "ta": "あげた",
+        "potential": "あげられる",
+        "passive": "あげられる",
+        "causative": "あげさせる"
+      },
+      "examples": [
+        {
+          "jp": "友達にプレゼントをあげる。",
+          "ta": "நண்பனுக்கு பரிசு கொடுக்கிறேன்."
+        },
+        {
+          "jp": "先生に花をあげました。",
+          "ta": "ஆசிரியருக்கு பூ கொடுத்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "もらう",
+      "kana": "もらう",
+      "romaji": "morau",
+      "jlpt": "N5",
+      "group": "Godan-u",
+      "meanings": [
+        {
+          "tamil": "பெறு",
+          "english": "to receive, to get",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "もらう",
+        "masu": "もらいます",
+        "te": "もらって",
+        "nai": "もらわない",
+        "ta": "もらった",
+        "potential": "もらえる",
+        "passive": "もらわれる",
+        "causative": "もらわせる"
+      },
+      "examples": [
+        {
+          "jp": "プレゼントをもらう。",
+          "ta": "பரிசு பெறுகிறேன்."
+        },
+        {
+          "jp": "友達から手紙をもらいました。",
+          "ta": "நண்பனிடம் கடிதம் பெற்றேன்."
+        }
+      ]
+    },
+    {
+      "word": "くれる",
+      "kana": "くれる",
+      "romaji": "kureru",
+      "jlpt": "N5",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "கொடு (என்னுக்கு)",
+          "english": "to give (to me/speaker's group)",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "くれる",
+        "masu": "くれます",
+        "te": "くれて",
+        "nai": "くれない",
+        "ta": "くれた",
+        "potential": "くれられる",
+        "passive": "くれられる",
+        "causative": "くれさせる"
+      },
+      "examples": [
+        {
+          "jp": "友達がプレゼントをくれた。",
+          "ta": "நண்பன் பரிசு கொடுத்தான்."
+        },
+        {
+          "jp": "先生が本をくれました。",
+          "ta": "ஆசிரியர் புத்தகம் கொடுத்தார்."
+        }
+      ]
+    },
+    {
+      "word": "遊ぶ",
+      "kana": "あそぶ",
+      "romaji": "asobu",
+      "jlpt": "N5",
+      "group": "Godan-bu",
+      "meanings": [
+        {
+          "tamil": "விளையாடு / குதூகலி",
+          "english": "to play, to enjoy",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "遊ぶ",
+        "masu": "遊びます",
+        "te": "遊んで",
+        "nai": "遊ばない",
+        "ta": "遊んだ",
+        "potential": "遊べる",
+        "passive": "遊ばれる",
+        "causative": "遊ばせる"
+      },
+      "examples": [
+        {
+          "jp": "公園で遊ぶ。",
+          "ta": "பூங்காவில் விளையாடுகிறேன்."
+        },
+        {
+          "jp": "友達と遊びました。",
+          "ta": "நண்பனுடன் குதூகலித்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "会う",
+      "kana": "あう",
+      "romaji": "au",
+      "jlpt": "N5",
+      "group": "Godan-u",
+      "meanings": [
+        {
+          "tamil": "சந்தி",
+          "english": "to meet",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "会う",
+        "masu": "会います",
+        "te": "会って",
+        "nai": "会わない",
+        "ta": "会った",
+        "potential": "会える",
+        "passive": "会われる",
+        "causative": "会わせる"
+      },
+      "examples": [
+        {
+          "jp": "友達に会う。",
+          "ta": "நண்பனை சந்திக்கிறேன்."
+        },
+        {
+          "jp": "駅で会いましょう。",
+          "ta": "ரயில் நிலையத்தில் சந்திப்போம்."
+        }
+      ]
+    },
+    {
+      "word": "歌う",
+      "kana": "うたう",
+      "romaji": "utau",
+      "jlpt": "N5",
+      "group": "Godan-u",
+      "meanings": [
+        {
+          "tamil": "பாடு",
+          "english": "to sing",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "歌う",
+        "masu": "歌います",
+        "te": "歌って",
+        "nai": "歌わない",
+        "ta": "歌った",
+        "potential": "歌える",
+        "passive": "歌われる",
+        "causative": "歌わせる"
+      },
+      "examples": [
+        {
+          "jp": "歌を歌う。",
+          "ta": "பாடல் பாடுகிறேன்."
+        },
+        {
+          "jp": "みんなで歌いました。",
+          "ta": "எல்லோரும் பாடினோம்."
+        }
+      ]
+    },
+    {
+      "word": "泣く",
+      "kana": "なく",
+      "romaji": "naku",
+      "jlpt": "N5",
+      "group": "Godan-ku",
+      "meanings": [
+        {
+          "tamil": "அழு",
+          "english": "to cry",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "泣く",
+        "masu": "泣きます",
+        "te": "泣いて",
+        "nai": "泣かない",
+        "ta": "泣いた",
+        "potential": "泣ける",
+        "passive": "泣かれる",
+        "causative": "泣かせる"
+      },
+      "examples": [
+        {
+          "jp": "悲しくて泣く。",
+          "ta": "சோகத்தால் அழுகிறேன்."
+        },
+        {
+          "jp": "映画を見て泣きました。",
+          "ta": "படம் பார்த்து அழுதேன்."
+        }
+      ]
+    },
+    {
+      "word": "笑う",
+      "kana": "わらう",
+      "romaji": "warau",
+      "jlpt": "N5",
+      "group": "Godan-u",
+      "meanings": [
+        {
+          "tamil": "சிரி",
+          "english": "to laugh, to smile",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "笑う",
+        "masu": "笑います",
+        "te": "笑って",
+        "nai": "笑わない",
+        "ta": "笑った",
+        "potential": "笑える",
+        "passive": "笑われる",
+        "causative": "笑わせる"
+      },
+      "examples": [
+        {
+          "jp": "みんなで笑う。",
+          "ta": "எல்லோரும் சிரிக்கிறோம்."
+        },
+        {
+          "jp": "楽しくて笑いました。",
+          "ta": "மகிழ்ச்சியால் சிரித்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "怒る",
+      "kana": "おこる",
+      "romaji": "okoru",
+      "jlpt": "N5",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "கோபப்படு",
+          "english": "to get angry",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "怒る",
+        "masu": "怒ります",
+        "te": "怒って",
+        "nai": "怒らない",
+        "ta": "怒った",
+        "potential": "怒れる",
+        "passive": "怒られる",
+        "causative": "怒らせる"
+      },
+      "examples": [
+        {
+          "jp": "怒らないでください。",
+          "ta": "கோபப்படாதீர்கள்."
+        },
+        {
+          "jp": "先生が怒りました。",
+          "ta": "ஆசிரியர் கோபப்பட்டார்."
+        }
+      ]
+    },
+    {
+      "word": "驚く",
+      "kana": "おどろく",
+      "romaji": "odoroku",
+      "jlpt": "N4",
+      "group": "Godan-ku",
+      "meanings": [
+        {
+          "tamil": "ஆச்சரியப்படு",
+          "english": "to be surprised, to be amazed",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "驚く",
+        "masu": "驚きます",
+        "te": "驚いて",
+        "nai": "驚かない",
+        "ta": "驚いた",
+        "potential": "驚ける",
+        "passive": "驚かれる",
+        "causative": "驚かせる"
+      },
+      "examples": [
+        {
+          "jp": "その知らせに驚いた。",
+          "ta": "அந்த செய்தியில் ஆச்சரியப்பட்டேன்."
+        },
+        {
+          "jp": "彼女の言葉に驚きました。",
+          "ta": "அவளின் வார்த்தைகளில் ஆச்சரியமடைந்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "困る",
+      "kana": "こまる",
+      "romaji": "komaru",
+      "jlpt": "N4",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "சிரமப்படு / தவிர்",
+          "english": "to be troubled, to be in difficulty",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "困る",
+        "masu": "困ります",
+        "te": "困って",
+        "nai": "困らない",
+        "ta": "困った",
+        "potential": "困れる",
+        "passive": "困られる",
+        "causative": "困らせる"
+      },
+      "examples": [
+        {
+          "jp": "道に迷って困った。",
+          "ta": "வழி தவறி சிரமப்பட்டேன்."
+        },
+        {
+          "jp": "お金がなくて困っています。",
+          "ta": "பணம் இல்லாமல் தவிக்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "疲れる",
+      "kana": "つかれる",
+      "romaji": "tsukareru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "சோர்வடை",
+          "english": "to get tired",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "疲れる",
+        "masu": "疲れます",
+        "te": "疲れて",
+        "nai": "疲れない",
+        "ta": "疲れた",
+        "potential": "疲れられる",
+        "passive": "疲れられる",
+        "causative": "疲れさせる"
+      },
+      "examples": [
+        {
+          "jp": "仕事で疲れた。",
+          "ta": "வேலையில் சோர்வடைந்தேன்."
+        },
+        {
+          "jp": "体が疲れています。",
+          "ta": "உடல் சோர்வாக உள்ளது."
+        }
+      ]
+    },
+    {
+      "word": "休む",
+      "kana": "やすむ",
+      "romaji": "yasumu",
+      "jlpt": "N5",
+      "group": "Godan-mu",
+      "meanings": [
+        {
+          "tamil": "ஓய்வெடு / இல்லாமல் இரு",
+          "english": "to rest, to be absent",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "休む",
+        "masu": "休みます",
+        "te": "休んで",
+        "nai": "休まない",
+        "ta": "休んだ",
+        "potential": "休める",
+        "passive": "休まれる",
+        "causative": "休ませる"
+      },
+      "examples": [
+        {
+          "jp": "少し休む。",
+          "ta": "கொஞ்சம் ஓய்வெடுக்கிறேன்."
+        },
+        {
+          "jp": "学校を休みました。",
+          "ta": "பள்ளியில் இல்லாமல் இருந்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "急ぐ",
+      "kana": "いそぐ",
+      "romaji": "isogu",
+      "jlpt": "N5",
+      "group": "Godan-gu",
+      "meanings": [
+        {
+          "tamil": "அவசரப்படு",
+          "english": "to hurry",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "急ぐ",
+        "masu": "急ぎます",
+        "te": "急いで",
+        "nai": "急がない",
+        "ta": "急いだ",
+        "potential": "急げる",
+        "passive": "急がれる",
+        "causative": "急がせる"
+      },
+      "examples": [
+        {
+          "jp": "急いで行く。",
+          "ta": "அவசரமாக போகிறேன்."
+        },
+        {
+          "jp": "急いでください！",
+          "ta": "அவசரப்படுங்கள்!"
+        }
+      ]
+    },
+    {
+      "word": "集まる",
+      "kana": "あつまる",
+      "romaji": "atsumaru",
+      "jlpt": "N4",
+      "group": "Godan-ru",
+      "meanings": [
+        {
+          "tamil": "கூடு / சேர்",
+          "english": "to gather, to assemble",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "集まる",
+        "masu": "集まります",
+        "te": "集まって",
+        "nai": "集まらない",
+        "ta": "集まった",
+        "potential": "集まれる",
+        "passive": "集まられる",
+        "causative": "集まらせる"
+      },
+      "examples": [
+        {
+          "jp": "みんなが集まった。",
+          "ta": "எல்லோரும் கூடினர்."
+        },
+        {
+          "jp": "公園に人が集まりました。",
+          "ta": "பூங்காவில் மக்கள் சேர்ந்தனர்."
+        }
+      ]
+    },
+    {
+      "word": "別れる",
+      "kana": "わかれる",
+      "romaji": "wakareru",
+      "jlpt": "N4",
+      "group": "Ichidan",
+      "meanings": [
+        {
+          "tamil": "பிரி",
+          "english": "to separate, to part",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "別れる",
+        "masu": "別れます",
+        "te": "別れて",
+        "nai": "別れない",
+        "ta": "別れた",
+        "potential": "別れられる",
+        "passive": "別れられる",
+        "causative": "別れさせる"
+      },
+      "examples": [
+        {
+          "jp": "友達と別れた。",
+          "ta": "நண்பனிடமிருந்து பிரிந்தேன்."
+        },
+        {
+          "jp": "駅で別れました。",
+          "ta": "ரயில் நிலையத்தில் பிரிந்தோம்."
+        }
+      ]
+    },
+    {
+      "word": "結婚する",
+      "kana": "けっこんする",
+      "romaji": "kekkon suru",
+      "jlpt": "N4",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "திருமணமாகு",
+          "english": "to get married",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "結婚する",
+        "masu": "結婚します",
+        "te": "結婚して",
+        "nai": "結婚しない",
+        "ta": "結婚した",
+        "potential": "結婚できる",
+        "passive": "結婚される",
+        "causative": "結婚させる"
+      },
+      "examples": [
+        {
+          "jp": "来年結婚する。",
+          "ta": "அடுத்த ஆண்டு திருமணமாகிறேன்."
+        },
+        {
+          "jp": "友達が結婚しました。",
+          "ta": "நண்பன் திருமணமானான்."
+        }
+      ]
+    },
+    {
+      "word": "離婚する",
+      "kana": "りこんする",
+      "romaji": "rikon suru",
+      "jlpt": "N4",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "விவாகரத்தாகு",
+          "english": "to divorce",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "離婚する",
+        "masu": "離婚します",
+        "te": "離婚して",
+        "nai": "離婚しない",
+        "ta": "離婚した",
+        "potential": "離婚できる",
+        "passive": "離婚される",
+        "causative": "離婚させる"
+      },
+      "examples": [
+        {
+          "jp": "離婚した。",
+          "ta": "விவாகரத்தானேன்."
+        },
+        {
+          "jp": "彼らは離婚しました。",
+          "ta": "அவர்கள் விவாகரத்தானார்கள்."
+        }
+      ]
+    },
+    {
+      "word": "勉強する",
+      "kana": "べんきょうする",
+      "romaji": "benkyou suru",
+      "jlpt": "N5",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "படி",
+          "english": "to study",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "勉強する",
+        "masu": "勉強します",
+        "te": "勉強して",
+        "nai": "勉強しない",
+        "ta": "勉強した",
+        "potential": "勉強できる",
+        "passive": "勉強される",
+        "causative": "勉強させる"
+      },
+      "examples": [
+        {
+          "jp": "日本語を勉強する。",
+          "ta": "ஜப்பானியம் படிக்கிறேன்."
+        },
+        {
+          "jp": "毎日三時間勉強します。",
+          "ta": "தினமும் மூன்று மணி நேரம் படிக்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "料理する",
+      "kana": "りょうりする",
+      "romaji": "ryouri suru",
+      "jlpt": "N5",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "சமை",
+          "english": "to cook",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "料理する",
+        "masu": "料理します",
+        "te": "料理して",
+        "nai": "料理しない",
+        "ta": "料理した",
+        "potential": "料理できる",
+        "passive": "料理される",
+        "causative": "料理させる"
+      },
+      "examples": [
+        {
+          "jp": "夕食を料理する。",
+          "ta": "இரவு சாப்பாடு சமைக்கிறேன்."
+        },
+        {
+          "jp": "お母さんが料理しました。",
+          "ta": "அம்மா சமைத்தார்."
+        }
+      ]
+    },
+    {
+      "word": "掃除する",
+      "kana": "そうじする",
+      "romaji": "souji suru",
+      "jlpt": "N5",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "சுத்தம் செய்",
+          "english": "to clean",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "掃除する",
+        "masu": "掃除します",
+        "te": "掃除して",
+        "nai": "掃除しない",
+        "ta": "掃除した",
+        "potential": "掃除できる",
+        "passive": "掃除される",
+        "causative": "掃除させる"
+      },
+      "examples": [
+        {
+          "jp": "部屋を掃除する。",
+          "ta": "அறையை சுத்தம் செய்கிறேன்."
+        },
+        {
+          "jp": "毎週掃除します。",
+          "ta": "வாராவாரம் சுத்தம் செய்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "洗濯する",
+      "kana": "せんたくする",
+      "romaji": "sentaku suru",
+      "jlpt": "N5",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "துவை",
+          "english": "to do laundry",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "洗濯する",
+        "masu": "洗濯します",
+        "te": "洗濯して",
+        "nai": "洗濯しない",
+        "ta": "洗濯した",
+        "potential": "洗濯できる",
+        "passive": "洗濯される",
+        "causative": "洗濯させる"
+      },
+      "examples": [
+        {
+          "jp": "洋服を洗濯する。",
+          "ta": "ஆடை துவைக்கிறேன்."
+        },
+        {
+          "jp": "洗濯機で洗濯しました。",
+          "ta": "துவைப்பு இயந்திரத்தில் துவைத்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "散歩する",
+      "kana": "さんぽする",
+      "romaji": "sanpo suru",
+      "jlpt": "N5",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "உலாவு",
+          "english": "to take a walk",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "散歩する",
+        "masu": "散歩します",
+        "te": "散歩して",
+        "nai": "散歩しない",
+        "ta": "散歩した",
+        "potential": "散歩できる",
+        "passive": "散歩される",
+        "causative": "散歩させる"
+      },
+      "examples": [
+        {
+          "jp": "公園を散歩する。",
+          "ta": "பூங்காவில் உலாவுகிறேன்."
+        },
+        {
+          "jp": "犬と散歩しました。",
+          "ta": "நாயுடன் உலாவினேன்."
+        }
+      ]
+    },
+    {
+      "word": "旅行する",
+      "kana": "りょこうする",
+      "romaji": "ryokou suru",
+      "jlpt": "N5",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "பயணம் செய்",
+          "english": "to travel",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "旅行する",
+        "masu": "旅行します",
+        "te": "旅行して",
+        "nai": "旅行しない",
+        "ta": "旅行した",
+        "potential": "旅行できる",
+        "passive": "旅行される",
+        "causative": "旅行させる"
+      },
+      "examples": [
+        {
+          "jp": "日本を旅行する。",
+          "ta": "ஜப்பான் பயணம் செய்கிறேன்."
+        },
+        {
+          "jp": "去年ヨーロッパを旅行しました。",
+          "ta": "கடந்த ஆண்டு ஐரோப்பா பயணம் செய்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "運動する",
+      "kana": "うんどうする",
+      "romaji": "undou suru",
+      "jlpt": "N4",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "உடற்பயிற்சி செய்",
+          "english": "to exercise",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "運動する",
+        "masu": "運動します",
+        "te": "運動して",
+        "nai": "運動しない",
+        "ta": "運動した",
+        "potential": "運動できる",
+        "passive": "運動される",
+        "causative": "運動させる"
+      },
+      "examples": [
+        {
+          "jp": "毎日運動する。",
+          "ta": "தினமும் உடற்பயிற்சி செய்கிறேன்."
+        },
+        {
+          "jp": "健康のために運動しました。",
+          "ta": "ஆரோக்கியத்திற்காக உடற்பயிற்சி செய்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "練習する",
+      "kana": "れんしゅうする",
+      "romaji": "renshuu suru",
+      "jlpt": "N5",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "பயிற்சி செய்",
+          "english": "to practice",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "練習する",
+        "masu": "練習します",
+        "te": "練習して",
+        "nai": "練習しない",
+        "ta": "練習した",
+        "potential": "練習できる",
+        "passive": "練習される",
+        "causative": "練習させる"
+      },
+      "examples": [
+        {
+          "jp": "ピアノを練習する。",
+          "ta": "பியானோ பயிற்சி செய்கிறேன்."
+        },
+        {
+          "jp": "毎日一時間練習しました。",
+          "ta": "தினமும் ஒரு மணி நேரம் பயிற்சி செய்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "発表する",
+      "kana": "はっぴょうする",
+      "romaji": "happyou suru",
+      "jlpt": "N4",
+      "group": "Suru",
+      "meanings": [
+        {
+          "tamil": "அறிவி / வெளியிடு",
+          "english": "to announce, to present",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "発表する",
+        "masu": "発表します",
+        "te": "発表して",
+        "nai": "発表しない",
+        "ta": "発表した",
+        "potential": "発表できる",
+        "passive": "発表される",
+        "causative": "発表させる"
+      },
+      "examples": [
+        {
+          "jp": "結果を発表する。",
+          "ta": "முடிவை அறிவிக்கிறேன்."
+        },
+        {
+          "jp": "クラスで発表しました。",
+          "ta": "வகுப்பில் வெளியிட்டேன்."
+        }
+      ]
+    },
+    {
+      "word": "申し込む",
+      "kana": "もうしこむ",
+      "romaji": "moushikomu",
+      "jlpt": "N4",
+      "group": "Godan-mu",
+      "meanings": [
+        {
+          "tamil": "விண்ணப்பி",
+          "english": "to apply, to sign up",
+          "pos": "verb"
+        }
+      ],
+      "conjugations": {
+        "dict": "申し込む",
+        "masu": "申し込みます",
+        "te": "申し込んで",
+        "nai": "申し込まない",
+        "ta": "申し込んだ",
+        "potential": "申し込める",
+        "passive": "申し込まれる",
+        "causative": "申し込ませる"
+      },
+      "examples": [
+        {
+          "jp": "コースに申し込む。",
+          "ta": "பாடத்திட்டத்தில் விண்ணப்பிக்கிறேன்."
+        },
+        {
+          "jp": "試験に申し込みました。",
+          "ta": "தேர்வில் விண்ணப்பித்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "美しい",
+      "kana": "うつくしい",
+      "romaji": "utsukushii",
+      "jlpt": "N4",
+      "group": "i-adj",
+      "meanings": [
+        {
+          "tamil": "அழகான",
+          "english": "beautiful",
+          "pos": "adjective-i"
+        }
+      ],
+      "conjugations": {
+        "dict": "美しい",
+        "neg": "美しくない",
+        "past": "美しかった",
+        "neg-past": "美しくなかった",
+        "adv": "美しく",
+        "noun-form": "美しさ"
+      },
+      "examples": [
+        {
+          "jp": "美しい花だ。",
+          "ta": "அழகான பூ."
+        },
+        {
+          "jp": "日本の自然は美しい。",
+          "ta": "ஜப்பானின் இயற்கை அழகானது."
+        }
+      ]
+    },
+    {
+      "word": "醜い",
+      "kana": "みにくい",
+      "romaji": "minikui",
+      "jlpt": "N3",
+      "group": "i-adj",
+      "meanings": [
+        {
+          "tamil": "அசிங்கமான",
+          "english": "ugly, unsightly",
+          "pos": "adjective-i"
+        }
+      ],
+      "conjugations": {
+        "dict": "醜い",
+        "neg": "醜くない",
+        "past": "醜かった",
+        "neg-past": "醜くなかった",
+        "adv": "醜く",
+        "noun-form": "醜さ"
+      },
+      "examples": [
+        {
+          "jp": "醜い行動だ。",
+          "ta": "அசிங்கமான செயல்."
+        }
+      ]
+    },
+    {
+      "word": "素直",
+      "kana": "すなお",
+      "romaji": "sunao",
+      "jlpt": "N4",
+      "group": "na-adj",
+      "meanings": [
+        {
+          "tamil": "நேர்மையான / கீழ்ப்படிகின்ற",
+          "english": "obedient, honest, meek",
+          "pos": "adjective-na"
+        }
+      ],
+      "conjugations": {
+        "dict": "素直な",
+        "neg": "素直じゃない",
+        "adv": "素直に"
+      },
+      "examples": [
+        {
+          "jp": "素直な子供だ。",
+          "ta": "நேர்மையான குழந்தை."
+        },
+        {
+          "jp": "素直に言う。",
+          "ta": "நேர்மையாக சொல்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "穏やか",
+      "kana": "おだやか",
+      "romaji": "odayaka",
+      "jlpt": "N4",
+      "group": "na-adj",
+      "meanings": [
+        {
+          "tamil": "அமைதியான",
+          "english": "calm, gentle, mild",
+          "pos": "adjective-na"
+        }
+      ],
+      "conjugations": {
+        "dict": "穏やかな",
+        "neg": "穏やかじゃない",
+        "adv": "穏やかに"
+      },
+      "examples": [
+        {
+          "jp": "穏やかな人だ。",
+          "ta": "அமைதியான நபர்."
+        },
+        {
+          "jp": "穏やかな天気だ。",
+          "ta": "அமைதியான வானிலை."
+        }
+      ]
+    },
+    {
+      "word": "積極的",
+      "kana": "せっきょくてき",
+      "romaji": "sekkyokuteki",
+      "jlpt": "N3",
+      "group": "na-adj",
+      "meanings": [
+        {
+          "tamil": "தீவிரமான / முன்முயற்சியுள்ள",
+          "english": "active, positive, proactive",
+          "pos": "adjective-na"
+        }
+      ],
+      "conjugations": {
+        "dict": "積極的な",
+        "neg": "積極的じゃない",
+        "adv": "積極的に"
+      },
+      "examples": [
+        {
+          "jp": "積極的に参加する。",
+          "ta": "தீவிரமாக கலந்துகொள்கிறேன்."
+        },
+        {
+          "jp": "積極的な姿勢だ。",
+          "ta": "முன்முயற்சியுள்ள மனோபாவம்."
+        }
+      ]
+    },
+    {
+      "word": "消極的",
+      "kana": "しょうきょくてき",
+      "romaji": "shoukyokuteki",
+      "jlpt": "N3",
+      "group": "na-adj",
+      "meanings": [
+        {
+          "tamil": "செயல்படாத / மறைமுக",
+          "english": "passive, negative, indirect",
+          "pos": "adjective-na"
+        }
+      ],
+      "conjugations": {
+        "dict": "消極的な",
+        "neg": "消極的じゃない",
+        "adv": "消極的に"
+      },
+      "examples": [
+        {
+          "jp": "消極的な態度だ。",
+          "ta": "செயல்படாத மனோபாவம்."
+        }
+      ]
+    },
+    {
+      "word": "〜に違いない",
+      "kana": "にちがいない",
+      "romaji": "ni chigainai",
+      "jlpt": "N3",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "நிச்சயமாக அப்படித்தான்",
+          "english": "must be, no doubt",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "彼は来るに違いない。",
+          "ta": "அவன் நிச்சயமாக வருவான்."
+        },
+        {
+          "jp": "これは本物に違いない。",
+          "ta": "இது நிச்சயமாக அசல்தான்."
+        }
+      ]
+    },
+    {
+      "word": "〜わけだ",
+      "kana": "わけだ",
+      "romaji": "wake da",
+      "jlpt": "N3",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "ஆகவே அப்படி / அர்த்தம் என்னவென்றால்",
+          "english": "so that's why / it means that",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "毎日練習したわけだ。",
+          "ta": "தினமும் பயிற்சி செய்தேன் ஆகவே."
+        },
+        {
+          "jp": "それはうまくいくわけだ。",
+          "ta": "அது நன்றாக போகும் என்று அர்த்தம்."
+        }
+      ]
+    },
+    {
+      "word": "〜ことがある",
+      "kana": "ことがある",
+      "romaji": "koto ga aru",
+      "jlpt": "N3",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "சில நேரம் உண்டு",
+          "english": "there are times when, sometimes happens",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "学校を休むことがある。",
+          "ta": "சில நேரம் பள்ளியில் இல்லாமல் இருப்பது உண்டு."
+        },
+        {
+          "jp": "間違えることがある。",
+          "ta": "சில நேரம் தவறு செய்வது உண்டு."
+        }
+      ]
+    },
+    {
+      "word": "〜てしまう",
+      "kana": "てしまう",
+      "romaji": "te shimau",
+      "jlpt": "N3",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்துவிட்டேன் (வருத்தம் / முடிந்தது)",
+          "english": "ended up doing, done completely (often regret)",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "宿題を忘れてしまった。",
+          "ta": "வீட்டுப்பாடம் மறந்துவிட்டேன்."
+        },
+        {
+          "jp": "全部食べてしまった。",
+          "ta": "எல்லாவற்றையும் சாப்பிட்டுவிட்டேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜てもいい",
+      "kana": "てもいい",
+      "romaji": "te mo ii",
+      "jlpt": "N5",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்யலாம் (அனுமதி)",
+          "english": "it's okay to, may, allowed to",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "ここで写真を撮ってもいいですか？",
+          "ta": "இங்கே புகைப்படம் எடுக்கலாமா?"
+        },
+        {
+          "jp": "入ってもいいですよ。",
+          "ta": "உள்ளே வரலாம்."
+        }
+      ]
+    },
+    {
+      "word": "〜てはいけない",
+      "kana": "てはいけない",
+      "romaji": "te wa ikenai",
+      "jlpt": "N5",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்யக்கூடாது (தடை)",
+          "english": "must not, not allowed to",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "ここで写真を撮ってはいけない。",
+          "ta": "இங்கே புகைப்படம் எடுக்கக்கூடாது."
+        },
+        {
+          "jp": "授業中に話してはいけません。",
+          "ta": "வகுப்பில் பேசக்கூடாது."
+        }
+      ]
+    },
+    {
+      "word": "〜ばいい",
+      "kana": "ばいい",
+      "romaji": "ba ii",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்தால் நல்லது",
+          "english": "should do, it would be good to",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "もっと練習すればいい。",
+          "ta": "இன்னும் பயிற்சி செய்தால் நல்லது."
+        },
+        {
+          "jp": "早く寝ればいい。",
+          "ta": "சீக்கிரம் தூங்கினால் நல்லது."
+        }
+      ]
+    },
+    {
+      "word": "〜たほうがいい",
+      "kana": "たほうがいい",
+      "romaji": "ta hou ga ii",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்வது நல்லது (ஆலோசனை)",
+          "english": "you had better do, it's better to",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "医者に行ったほうがいい。",
+          "ta": "மருத்துவரிடம் போவது நல்லது."
+        },
+        {
+          "jp": "早く起きたほうがいい。",
+          "ta": "சீக்கிரம் எழுவது நல்லது."
+        }
+      ]
+    },
+    {
+      "word": "〜ないほうがいい",
+      "kana": "ないほうがいい",
+      "romaji": "nai hou ga ii",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்யாமலிருப்பது நல்லது",
+          "english": "you had better not do",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "夜遅く食べないほうがいい。",
+          "ta": "இரவு தாமதமாக சாப்பிடாமலிருப்பது நல்லது."
+        },
+        {
+          "jp": "無理しないほうがいい。",
+          "ta": "வலிந்து செய்யாமலிருப்பது நல்லது."
+        }
+      ]
+    },
+    {
+      "word": "〜ようになる",
+      "kana": "ようになる",
+      "romaji": "you ni naru",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "ஆகிவிட்டது / செய்ய முடிகிறது",
+          "english": "to come to be able to, to become the case",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "日本語が話せるようになった。",
+          "ta": "ஜப்பானியம் பேச முடிகிறது."
+        },
+        {
+          "jp": "早く起きられるようになった。",
+          "ta": "சீக்கிரம் எழ முடிகிறது."
+        }
+      ]
+    },
+    {
+      "word": "〜ようにする",
+      "kana": "ようにする",
+      "romaji": "you ni suru",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "செய்ய முயல்கிறேன்",
+          "english": "to make an effort to, try to",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "毎日運動するようにする。",
+          "ta": "தினமும் உடற்பயிற்சி செய்ய முயல்கிறேன்."
+        },
+        {
+          "jp": "早く寝るようにしています。",
+          "ta": "சீக்கிரம் தூங்க முயற்சிக்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜おかげで",
+      "kana": "おかげで",
+      "romaji": "okage de",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "நன்றாக நடந்தது (நன்றி)",
+          "english": "thanks to, owing to (positive)",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "先生のおかげで合格した。",
+          "ta": "ஆசிரியரின் நன்றாக தேர்ச்சி பெற்றேன்."
+        },
+        {
+          "jp": "薬のおかげで元気になった。",
+          "ta": "மருந்தின் நன்றாக ஆரோக்கியமானேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜せいで",
+      "kana": "せいで",
+      "romaji": "sei de",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "காரணமாக நடந்தது (குறை)",
+          "english": "because of, due to (negative)",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "雨のせいで遅れた。",
+          "ta": "மழையின் காரணமாக தாமதமானேன்."
+        },
+        {
+          "jp": "病気のせいで学校を休んだ。",
+          "ta": "நோயின் காரணமாக பள்ளி இல்லாமல் இருந்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜に対して",
+      "kana": "にたいして",
+      "romaji": "ni taishite",
+      "jlpt": "N3",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "நோக்கி / எதிர்",
+          "english": "towards, against, in contrast to",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "彼に対して厳しい。",
+          "ta": "அவனிடம் கண்டிப்பாக இருக்கிறேன்."
+        },
+        {
+          "jp": "先生に対して礼儀正しくする。",
+          "ta": "ஆசிரியரிடம் மரியாதையாக நடந்துகொள்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜によって",
+      "kana": "によって",
+      "romaji": "ni yotte",
+      "jlpt": "N3",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "மூலம் / காரணமாக / பொறுத்து",
+          "english": "by means of, due to, depending on",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "努力によって成功した。",
+          "ta": "முயற்சியால் வெற்றி பெற்றேன்."
+        },
+        {
+          "jp": "人によって考えが違う。",
+          "ta": "மனிதரைப் பொறுத்து கருத்து வேறுபடும்."
+        }
+      ]
+    },
+    {
+      "word": "〜について",
+      "kana": "について",
+      "romaji": "ni tsuite",
+      "jlpt": "N4",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "பற்றி",
+          "english": "about, concerning",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "日本について話す。",
+          "ta": "ஜப்பான் பற்றி பேசுகிறேன்."
+        },
+        {
+          "jp": "この問題について考える。",
+          "ta": "இந்த பிரச்சனை பற்றி சிந்திக்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "〜をはじめ",
+      "kana": "をはじめ",
+      "romaji": "wo hajime",
+      "jlpt": "N3",
+      "group": "Grammar",
+      "meanings": [
+        {
+          "tamil": "தொடங்கி / முன்னிலையில்",
+          "english": "beginning with, including (as the first)",
+          "pos": "grammar"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "東京をはじめ、多くの都市を訪れた。",
+          "ta": "டோக்கியோ தொடங்கி பல நகரங்கள் சென்றேன்."
+        },
+        {
+          "jp": "日本をはじめ、アジア各国。",
+          "ta": "ஜப்பான் தொடங்கி ஆசிய நாடுகள்."
+        }
+      ]
+    },
+    {
+      "word": "気をつけて",
+      "kana": "きをつけて",
+      "romaji": "ki wo tsukete",
+      "jlpt": "N5",
+      "group": "Expression",
+      "meanings": [
+        {
+          "tamil": "கவனமாக இரு",
+          "english": "take care, be careful",
+          "pos": "expression"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "気をつけて行ってね。",
+          "ta": "கவனமாக போய்வா."
+        },
+        {
+          "jp": "気をつけてください！",
+          "ta": "கவனமாக இருங்கள்!"
+        }
+      ]
+    },
+    {
+      "word": "ただいま",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "jlpt": "N5",
+      "group": "Expression",
+      "meanings": [
+        {
+          "tamil": "திரும்பி வந்தேன்",
+          "english": "I'm home, I'm back",
+          "pos": "expression"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "ただいま！",
+          "ta": "திரும்பி வந்தேன்!"
+        },
+        {
+          "jp": "ただいま帰りました。",
+          "ta": "திரும்பி வந்தேன்."
+        }
+      ]
+    },
+    {
+      "word": "おかえり",
+      "kana": "おかえり",
+      "romaji": "okaeri",
+      "jlpt": "N5",
+      "group": "Expression",
+      "meanings": [
+        {
+          "tamil": "வரவேற்கிறேன் (திரும்பி வந்தவருக்கு)",
+          "english": "welcome home",
+          "pos": "expression"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "おかえり！",
+          "ta": "வரவேற்கிறேன்!"
+        },
+        {
+          "jp": "おかえりなさい。",
+          "ta": "வரவேற்கிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "いってきます",
+      "kana": "いってきます",
+      "romaji": "itte kimasu",
+      "jlpt": "N5",
+      "group": "Expression",
+      "meanings": [
+        {
+          "tamil": "போய் வருகிறேன்",
+          "english": "I'm going (and coming back)",
+          "pos": "expression"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "いってきます！",
+          "ta": "போய் வருகிறேன்!"
+        },
+        {
+          "jp": "学校へいってきます。",
+          "ta": "பள்ளிக்கு போய் வருகிறேன்."
+        }
+      ]
+    },
+    {
+      "word": "いってらっしゃい",
+      "kana": "いってらっしゃい",
+      "romaji": "itte rasshai",
+      "jlpt": "N5",
+      "group": "Expression",
+      "meanings": [
+        {
+          "tamil": "போய் வாருங்கள்",
+          "english": "have a good trip, see you later",
+          "pos": "expression"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "いってらっしゃい！",
+          "ta": "போய் வாருங்கள்!"
+        }
+      ]
+    },
+    {
+      "word": "お疲れ様",
+      "kana": "おつかれさま",
+      "romaji": "otsukaresama",
+      "jlpt": "N4",
+      "group": "Expression",
+      "meanings": [
+        {
+          "tamil": "உழைத்தீர்கள் / அப்படியே",
+          "english": "good work, you must be tired",
+          "pos": "expression"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "お疲れ様でした！",
+          "ta": "உழைத்தீர்கள்!"
+        },
+        {
+          "jp": "今日もお疲れ様です。",
+          "ta": "இன்றும் உழைத்தீர்கள்."
+        }
+      ]
+    },
+    {
+      "word": "お世話になります",
+      "kana": "おせわになります",
+      "romaji": "osewa ni narimasu",
+      "jlpt": "N4",
+      "group": "Expression",
+      "meanings": [
+        {
+          "tamil": "உங்கள் உதவிக்கு நன்றி",
+          "english": "thank you for your support",
+          "pos": "expression"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "いつもお世話になります。",
+          "ta": "எப்போதும் உங்கள் உதவிக்கு நன்றி."
+        },
+        {
+          "jp": "大変お世話になりました。",
+          "ta": "மிகவும் உதவிக்கு நன்றி."
+        }
+      ]
+    },
+    {
+      "word": "かしこまりました",
+      "kana": "かしこまりました",
+      "romaji": "kashikomarimashita",
+      "jlpt": "N3",
+      "group": "Expression",
+      "meanings": [
+        {
+          "tamil": "புரிந்தது (மிகவும் மரியாதை)",
+          "english": "certainly (very formal acknowledgment)",
+          "pos": "expression"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "かしこまりました。",
+          "ta": "புரிந்தது (மரியாதையாக)."
+        },
+        {
+          "jp": "では、かしこまりました。",
+          "ta": "அப்படியே, புரிந்தது."
+        }
+      ]
+    }
+  ]
+}
